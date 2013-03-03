@@ -5,7 +5,7 @@ Startup messages:
 Click 'RECORD VIDEO' button... record 2 or 3 seconds of video... click 'STOP RECORDING':
  I/MediaRecorderJNI(11292): prepare: surface=0x5a4ce1e0 (identity=392)
 
-Click 'TAKE PICTURE' button... note how media/camera servers die as soon as .takePicture is called
+Click 'TAKE PHOTO' button... note how media/camera servers die as soon as .takePicture is called
  I/camera->MainActivity(11292): Entering takePhotoButtonOnClickListener
  W/Camera(11292): ICamera died
  W/IMediaDeathNotifier(11292): media server died
