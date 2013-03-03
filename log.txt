@@ -1,0 +1,17 @@
+Startup messages:
+ D/OpenGLRenderer(11292): Enabling debug mode 0
+ I/Choreographer(11292): Skipped 66 frames!  The application may be doing too much work on its main thread.
+
+Click 'RECORD VIDEO' button... record 2 or 3 seconds of video... click 'STOP RECORDING':
+ I/MediaRecorderJNI(11292): prepare: surface=0x5a4ce1e0 (identity=392)
+
+Click 'TAKE PICTURE' button... note how media/camera servers die as soon as .takePicture is called
+ I/camera->MainActivity(11292): Entering takePhotoButtonOnClickListener
+ W/Camera(11292): ICamera died
+ W/IMediaDeathNotifier(11292): media server died
+ I/camera->MainActivity(11292): Leaving  takePhotoButtonOnClickListener
+ W/Camera(11292): Camera server died!
+ E/Camera(11292): Error 100
+
+I'd bid 50 quatloos on the newcomer who can clue me in as to what's going wrong :)
+ E/camera->MainActivity(11292): ->myCameraErrorCallback Error 100 on camera object: android.hardware.Camera@4182a930
