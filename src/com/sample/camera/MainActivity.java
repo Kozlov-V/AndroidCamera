@@ -155,6 +155,8 @@ public class MainActivity extends Activity {
 				
 				myMediaRecorder.stop();												// Stop current recording in progress
 
+				releaseMediaRecorder();
+
 				try { myCamera.reconnect(); } catch (Exception e) {					// Reconnect and re-lock access to the Camera
 					
 					Toast.makeText (MainActivity.this, "Failed to reconnect Camera!", Toast.LENGTH_LONG).show();
