@@ -68,6 +68,8 @@ public class MainActivity extends Activity {
             @Override
             public void onPictureTaken (byte[] data, Camera camera) {				//TODO: Save GPS details to JPEG EXIF here?
 
+            	Log.i (TAG, "Entering myPictureCallback->onPictureTaken");
+
                 File pictureFile = getOutputMediaFile (MEDIA_TYPE_IMAGE);
                 
                 if (pictureFile == null) {
@@ -123,6 +125,13 @@ public class MainActivity extends Activity {
 						Log.e (TAG, "->myMediaRecorderOnInfoListener failed to reconnect Camera: " + e.getMessage());
 					}
 					
+					try { myCamera.startPreview(); } catch (Exception e) {				// Restart preview updates
+						
+						Toast.makeText (MainActivity.this, "Failed to restart Camera preview!", Toast.LENGTH_LONG).show();
+						
+						Log.e (TAG, "->myMediaRecorderOnInfoListener failed to restart Camera preview: " + e.getMessage());
+					}
+					
 					btnRecordVideo.setText ("RECORD VIDEO");
 					
 					Toast.makeText (MainActivity.this, "Maximum video file size reached - Recording stopped", Toast.LENGTH_LONG).show();
@@ -136,11 +145,11 @@ public class MainActivity extends Activity {
 		@Override
 		public void onClick (View v) {
 
+			Log.i (TAG, "Entering takePhotoButtonOnClickListener");
+
 			myCamera.takePicture (null, null, myPictureCallback);					// Take photo and callback
 
 			myCamera.startPreview();												// Restart preview updates
-
-			Log.i (TAG, "Leaving takePhotoButtonOnClickListener");
 		}
 	};
 
@@ -155,14 +164,6 @@ public class MainActivity extends Activity {
 				
 				myMediaRecorder.stop();												// Stop current recording in progress
 
-<<<<<<< HEAD
-				releaseMediaRecorder();												// Reset and release video recorder object
-				
-				
-=======
-				releaseMediaRecorder();
->>>>>>> 3bc3820c2bc4fb874c418663745e56a764aa3545
-
 				try { myCamera.reconnect(); } catch (Exception e) {					// Reconnect and re-lock access to the Camera
 					
 					Toast.makeText (MainActivity.this, "Failed to reconnect Camera!", Toast.LENGTH_LONG).show();
@@ -174,7 +175,7 @@ public class MainActivity extends Activity {
 					
 					Toast.makeText (MainActivity.this, "Failed to restart Camera preview!", Toast.LENGTH_LONG).show();
 					
-					Log.e (TAG, "->recordVideoButtonOnClickListener restart Camera preview: " + e.getMessage());
+					Log.e (TAG, "->recordVideoButtonOnClickListener failed to restart Camera preview: " + e.getMessage());
 				}
 
 				btnRecordVideo.setText ("RECORD VIDEO");
