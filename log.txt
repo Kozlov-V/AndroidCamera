@@ -1,17 +1,1108 @@
-Startup messages:
- D/OpenGLRenderer(11292): Enabling debug mode 0
- I/Choreographer(11292): Skipped 66 frames!  The application may be doing too much work on its main thread.
-
-Click 'RECORD VIDEO' button... record 2 or 3 seconds of video... click 'STOP RECORDING':
- I/MediaRecorderJNI(11292): prepare: surface=0x5a4ce1e0 (identity=392)
-
-Click 'TAKE PHOTO' button... note how media/camera servers die as soon as .takePicture is called
- I/camera->MainActivity(11292): Entering takePhotoButtonOnClickListener
- W/Camera(11292): ICamera died
- W/IMediaDeathNotifier(11292): media server died
- I/camera->MainActivity(11292): Leaving  takePhotoButtonOnClickListener
- W/Camera(11292): Camera server died!
- E/Camera(11292): Error 100
-
-I'd bid 50 quatloos on the newcomer who can clue me in as to what's going wrong :)
- E/camera->MainActivity(11292): ->myCameraErrorCallback Error 100 on camera object: android.hardware.Camera@4182a930
+03-05 09:35:35.155: E/Watchdog(327): !@Sync 402
+03-05 09:35:39.241: D/AndroidRuntime(5933): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+03-05 09:35:39.241: D/AndroidRuntime(5933): CheckJNI is OFF
+03-05 09:35:39.248: D/AndroidRuntime(5933): setted country_code = CANADA
+03-05 09:35:39.248: D/AndroidRuntime(5933): setted countryiso_code = CA
+03-05 09:35:39.248: D/AndroidRuntime(5933): setted sales_code = XAC
+03-05 09:35:39.248: D/AndroidRuntime(5933): readGMSProperty: start
+03-05 09:35:39.248: D/AndroidRuntime(5933): readGMSProperty: already setted!!
+03-05 09:35:39.248: D/AndroidRuntime(5933): readGMSProperty: end
+03-05 09:35:39.256: D/dalvikvm(5933): Trying to load lib libjavacore.so 0x0
+03-05 09:35:39.264: D/dalvikvm(5933): Added shared lib libjavacore.so 0x0
+03-05 09:35:39.264: D/dalvikvm(5933): Trying to load lib libnativehelper.so 0x0
+03-05 09:35:39.264: D/dalvikvm(5933): Added shared lib libnativehelper.so 0x0
+03-05 09:35:39.498: D/dalvikvm(5933): Note: class Landroid/app/ActivityManagerNative; has 153 unimplemented (abstract) methods
+03-05 09:35:39.545: D/AndroidRuntime(5933): Calling main entry com.android.commands.pm.Pm
+03-05 09:35:39.592: D/AndroidRuntime(5933): Shutting down VM
+03-05 09:35:39.600: D/dalvikvm(5933): GC_CONCURRENT freed 102K, 78% free 570K/2560K, paused 0ms+1ms, total 5ms
+03-05 09:35:39.600: D/jdwp(5933): Got wake-up signal, bailing out of select
+03-05 09:35:39.600: D/dalvikvm(5933): Debugger has detached; object registry had 1 entries
+03-05 09:35:40.037: D/AndroidRuntime(5946): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+03-05 09:35:40.037: D/AndroidRuntime(5946): CheckJNI is OFF
+03-05 09:35:40.037: D/AndroidRuntime(5946): setted country_code = CANADA
+03-05 09:35:40.037: D/AndroidRuntime(5946): setted countryiso_code = CA
+03-05 09:35:40.037: D/AndroidRuntime(5946): setted sales_code = XAC
+03-05 09:35:40.037: D/AndroidRuntime(5946): readGMSProperty: start
+03-05 09:35:40.037: D/AndroidRuntime(5946): readGMSProperty: already setted!!
+03-05 09:35:40.037: D/AndroidRuntime(5946): readGMSProperty: end
+03-05 09:35:40.045: D/dalvikvm(5946): Trying to load lib libjavacore.so 0x0
+03-05 09:35:40.053: D/dalvikvm(5946): Added shared lib libjavacore.so 0x0
+03-05 09:35:40.053: D/dalvikvm(5946): Trying to load lib libnativehelper.so 0x0
+03-05 09:35:40.053: D/dalvikvm(5946): Added shared lib libnativehelper.so 0x0
+03-05 09:35:40.295: D/dalvikvm(5946): Note: class Landroid/app/ActivityManagerNative; has 153 unimplemented (abstract) methods
+03-05 09:35:40.342: D/AndroidRuntime(5946): Calling main entry com.android.commands.am.Am
+03-05 09:35:40.412: I/power(327): *** acquire_dvfs_lock : lockType : 1  freq : 1008000 
+03-05 09:35:40.412: D/KeyguardViewMediator(327): setHidden false
+03-05 09:35:40.412: D/PowerManagerService(327): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1008000  uid : 1000  pid : 327  tag : ActivityManager
+03-05 09:35:40.412: W/ActivityManager(327): mDVFSLock.acquire()
+03-05 09:35:40.451: D/Launcher.HomeFragment(557): onPause
+03-05 09:35:40.451: D/Launcher(557): onPause, Launcher: 1099719264
+03-05 09:35:40.459: D/AndroidRuntime(5946): Shutting down VM
+03-05 09:35:40.459: E/SurfaceFlinger(308): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:40.459: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:40.459: E/SurfaceFlinger(308): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:40.459: D/dalvikvm(5946): GC_CONCURRENT freed 103K, 77% free 597K/2560K, paused 0ms+0ms, total 5ms
+03-05 09:35:40.467: D/jdwp(5946): Got wake-up signal, bailing out of select
+03-05 09:35:40.467: D/dalvikvm(5946): Debugger has detached; object registry had 1 entries
+03-05 09:35:40.467: V/TaskCloserActivity(1606): TaskCloserActivity onReceive()
+03-05 09:35:40.467: I/AndroidRuntime(5946): NOTE: attach of thread 'Binder_3' failed
+03-05 09:35:40.475: D/KeyguardViewMediator(327): setHidden false
+03-05 09:35:40.475: V/WindowManager(327): rotationForOrientationLw(orient=0, last=0); user=0 USER_ROTATION_LOCKED mLidState=-1 mDockMode=0 mHdmiPlugged=false mAccelerometerDefault=false sensorRotation=-1
+03-05 09:35:40.483: D/KeyguardViewMediator(327): setHidden false
+03-05 09:35:40.483: E/TICameraProperties(5918): num_cameras = 2
+03-05 09:35:40.483: D/SecCameraCoreManager(5918): SecCameraCoreManager created: pid=5918, cameraId=0
+03-05 09:35:40.483: I/SecCameraCoreManager(5918): Opening camera 0
+03-05 09:35:40.483: I/CameraHAL(5918): camera_device open
+03-05 09:35:40.483: I/CameraHAL(5918): Sensor index 0
+03-05 09:35:40.491: D/Launcher(557): onTrimMemory. Level: 20
+03-05 09:35:40.639: I/CameraHAL(5918): PreviewFormat yuv420sp
+03-05 09:35:40.639: I/CameraHAL(5918): VSTAB false
+03-05 09:35:40.639: I/CameraHAL(5918): IPP mode set ldc-nsf
+03-05 09:35:40.639: I/CameraHAL(5918): PreviewResolution by App 640 x 480
+03-05 09:35:40.639: I/CameraHAL(5918): Recording Hint is set to NULL
+03-05 09:35:40.639: I/CameraHAL(5918): Focus mode set infinity
+03-05 09:35:40.639: I/CameraHAL(5918): Picture Size by App 640 x 480
+03-05 09:35:40.639: I/CameraHAL(5918): FRAMERATE 30
+03-05 09:35:40.639: I/CameraHAL(5918): FPS Range = 6000,30000
+03-05 09:35:40.639: I/CameraHAL(5918): DEFAULT FPS Range = 6000,30000
+03-05 09:35:40.639: I/CameraHAL(5918): SET FRAMERATE 30
+03-05 09:35:40.639: I/CameraHAL(5918): FPS Range [6, 30]
+03-05 09:35:40.639: I/CameraHAL(5918): GBCE Value = disable
+03-05 09:35:40.639: I/CameraHAL(5918): Exposure set = auto
+03-05 09:35:40.639: I/CameraHAL(5918): White balance set auto
+03-05 09:35:40.639: I/CameraHAL(5918): Contrast set 100
+03-05 09:35:40.639: I/CameraHAL(5918): Sharpness set 100
+03-05 09:35:40.639: I/CameraHAL(5918): Saturation set 100
+03-05 09:35:40.639: I/CameraHAL(5918): Brightness set 50
+03-05 09:35:40.639: I/CameraHAL(5918): Antibanding set off
+03-05 09:35:40.639: I/CameraHAL(5918): ISO set auto
+03-05 09:35:40.639: I/CameraHAL(5918): Exposure compensation set 0
+03-05 09:35:40.639: I/CameraHAL(5918): Scene mode set auto
+03-05 09:35:40.639: I/CameraHAL(5918): Effect set none
+03-05 09:35:40.639: I/CameraHAL(5918): Jpeg quality set 95
+03-05 09:35:40.639: I/CameraHAL(5918): Thumbnail width set 160
+03-05 09:35:40.639: I/CameraHAL(5918): Thumbnail height set 120
+03-05 09:35:40.639: I/CameraHAL(5918): Thumbnail quality set 60
+03-05 09:35:40.639: I/CameraHAL(5918): EXIF Model set GT-P5113
+03-05 09:35:40.639: I/CameraHAL(5918): EXIF Make set Samsung
+03-05 09:35:40.639: I/CameraHAL(5918): Zoom set 0
+03-05 09:35:40.639: I/CameraHAL(5918): Auto Exposure Lock set false
+03-05 09:35:40.639: I/CameraHAL(5918): Auto WhiteBalance Lock set false
+03-05 09:35:40.639: I/ShotCommon(5918): ShotCommon created: pid=5918
+03-05 09:35:40.639: I/ShotCommon(5918): Preview width(640), height(480)
+03-05 09:35:40.639: I/ShotCommon(5918): Preview color format [yuv420sp]
+03-05 09:35:40.639: I/ShotCommon(5918): Picture width(640), height(480)
+03-05 09:35:40.639: I/ShotCommon(5918): Picture color format [jpeg]
+03-05 09:35:40.639: I/ShotSingle(5918): ShotSingle created: pid=5918
+03-05 09:35:40.639: E/CameraHAL(5918): (400f6f30)   hardware/ti/omap4xxx/camera/espresso/CameraHal.cpp:2797 sendCommand - Preview is not running
+03-05 09:35:40.662: I/AwesomePlayer(5918): reset
+03-05 09:35:40.662: I/AwesomePlayer(5918): cancel player events
+03-05 09:35:40.662: I/AwesomePlayer(5918): cancel player events
+03-05 09:35:40.662: E/OMXCodec(5918): [LEGO] else flags = 0
+03-05 09:35:40.670: I/AwesomePlayer(5918): reset
+03-05 09:35:40.670: I/AwesomePlayer(5918): cancel player events
+03-05 09:35:40.670: I/AwesomePlayer(5918): cancel player events
+03-05 09:35:40.678: E/OMXCodec(5918): [LEGO] else flags = 0
+03-05 09:35:40.678: I/AwesomePlayer(5918): reset
+03-05 09:35:40.678: I/AwesomePlayer(5918): cancel player events
+03-05 09:35:40.678: I/AwesomePlayer(5918): cancel player events
+03-05 09:35:40.686: E/OMXCodec(5918): [LEGO] else flags = 0
+03-05 09:35:40.686: I/CameraHAL(5918): NULL ANativeWindow passed to setPreviewWindow
+03-05 09:35:40.686: D/SecCameraCoreManager(5918): virtual android::status_t android::SecCameraCoreManager::startPreview():start IT Policy checking thread
+03-05 09:35:40.686: D/ShotSingle(5918): startPreview
+03-05 09:35:40.733: E/CameraHAL(5918): (41aa0090)   hardware/ti/omap4xxx/camera/espresso/CameraHal.cpp:1514 startPreview - Preview not started. Preview in progress flag set
+03-05 09:35:40.733: E/WindowStateAnimator(327): createSurfaceLocked called attrs.flags=16920
+03-05 09:35:40.741: D/KeyguardViewMediator(327): setHidden false
+03-05 09:35:40.741: E/SurfaceFlinger(308): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:40.748: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:40.748: E/SurfaceFlinger(308): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:40.748: E/WindowStateAnimator(327): createSurfaceLocked called attrs.flags=16920
+03-05 09:35:40.764: D/KeyguardViewMediator(327): setHidden false
+03-05 09:35:40.772: D/KeyguardViewMediator(327): setHidden false
+03-05 09:35:40.772: E/WindowStateAnimator(327): createSurfaceLocked called attrs.flags=16920
+03-05 09:35:40.772: E/WindowStateAnimator(327): createSurfaceLocked called attrs.flags=25231616
+03-05 09:35:40.772: D/STATUSBAR-StatusBarManagerService(327): setSystemUiVisibility(0x0)
+03-05 09:35:40.772: D/STATUSBAR-StatusBarManagerService(327): manageDisableList what=0x0 pkg=WindowManager.LayoutParams
+03-05 09:35:40.780: D/KeyguardViewMediator(327): setHidden false
+03-05 09:35:40.780: E/SurfaceFlinger(308): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:40.780: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:40.780: E/SurfaceFlinger(308): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:40.819: D/KeyguardViewMediator(327): setHidden false
+03-05 09:35:40.819: D/KeyguardViewMediator(327): setHidden false
+03-05 09:35:40.819: D/KeyguardViewMediator(327): setHidden false
+03-05 09:35:40.819: D/KeyguardViewMediator(327): setHidden false
+03-05 09:35:40.826: D/KeyguardViewMediator(327): setHidden false
+03-05 09:35:40.826: D/KeyguardViewMediator(327): setHidden false
+03-05 09:35:40.826: E/SurfaceFlinger(308): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:40.826: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:40.826: E/SurfaceFlinger(308): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:40.834: D/KeyguardViewMediator(327): setHidden false
+03-05 09:35:40.834: D/KeyguardViewMediator(327): setHidden false
+03-05 09:35:40.834: D/KeyguardViewMediator(327): setHidden false
+03-05 09:35:40.842: D/KeyguardViewMediator(327): setHidden false
+03-05 09:35:40.842: E/WindowStateAnimator(327): createSurfaceLocked called attrs.flags=16920
+03-05 09:35:40.850: E/SurfaceFlinger(308): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:40.850: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:40.850: E/SurfaceFlinger(308): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:40.866: E/SurfaceFlinger(308): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:40.866: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:40.866: E/SurfaceFlinger(308): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:41.209: D/SecCameraCoreManager(5918): virtual void android::SecCameraCoreManager::stopPreview():stop IT Policy checking thread
+03-05 09:35:41.287: E/CameraHAL(5918): (41aa0440)   hardware/ti/omap4xxx/camera/espresso/BaseCameraAdapter.cpp:1792 setState - Adapter state switch PREVIEW_ACTIVE Invalid Op! event = 0xf
+03-05 09:35:41.420: I/power(327): *** release_dvfs_lock : lockType : 1 
+03-05 09:35:41.420: D/PowerManagerService(327): releaseDVFSLockLocked : all DVFS_MIN_LIMIT are released 
+03-05 09:35:41.420: W/ActivityManager(327): mDVFSLock.release()
+03-05 09:35:41.772: I/CameraHAL(5918): PreviewFormat yuv420sp
+03-05 09:35:41.772: I/CameraHAL(5918): VSTAB false
+03-05 09:35:41.772: I/CameraHAL(5918): IPP mode set ldc-nsf
+03-05 09:35:41.772: I/CameraHAL(5918): PreviewResolution by App 800 x 480
+03-05 09:35:41.772: I/CameraHAL(5918): Recording Hint is set to NULL
+03-05 09:35:41.772: I/CameraHAL(5918): Focus mode set infinity
+03-05 09:35:41.772: I/CameraHAL(5918): Picture Size by App 640 x 480
+03-05 09:35:41.772: I/CameraHAL(5918): FRAMERATE 30
+03-05 09:35:41.772: I/CameraHAL(5918): FPS Range = 6000,30000
+03-05 09:35:41.772: I/CameraHAL(5918): DEFAULT FPS Range = 6000,30000
+03-05 09:35:41.772: I/CameraHAL(5918): SET FRAMERATE 30
+03-05 09:35:41.772: I/CameraHAL(5918): FPS Range [6, 30]
+03-05 09:35:41.772: I/CameraHAL(5918): GBCE Value = disable
+03-05 09:35:41.772: I/CameraHAL(5918): Exposure set = auto
+03-05 09:35:41.772: I/CameraHAL(5918): White balance set auto
+03-05 09:35:41.772: I/CameraHAL(5918): Contrast set 100
+03-05 09:35:41.772: I/CameraHAL(5918): Sharpness set 100
+03-05 09:35:41.772: I/CameraHAL(5918): Saturation set 100
+03-05 09:35:41.772: I/CameraHAL(5918): Brightness set 50
+03-05 09:35:41.772: I/CameraHAL(5918): Antibanding set 60hz
+03-05 09:35:41.780: I/CameraHAL(5918): ISO set auto
+03-05 09:35:41.780: I/CameraHAL(5918): Exposure compensation set 0
+03-05 09:35:41.780: I/CameraHAL(5918): Scene mode set auto
+03-05 09:35:41.780: I/CameraHAL(5918): Effect set none
+03-05 09:35:41.780: I/CameraHAL(5918): Jpeg quality set 95
+03-05 09:35:41.780: I/CameraHAL(5918): Thumbnail width set 160
+03-05 09:35:41.780: I/CameraHAL(5918): Thumbnail height set 120
+03-05 09:35:41.780: I/CameraHAL(5918): Thumbnail quality set 60
+03-05 09:35:41.780: I/CameraHAL(5918): EXIF Model set GT-P5113
+03-05 09:35:41.780: I/CameraHAL(5918): EXIF Make set Samsung
+03-05 09:35:41.780: I/CameraHAL(5918): Zoom set 0
+03-05 09:35:41.780: I/CameraHAL(5918): Auto Exposure Lock set false
+03-05 09:35:41.780: I/CameraHAL(5918): Auto WhiteBalance Lock set false
+03-05 09:35:41.780: D/SecCameraCoreManager(5918): virtual android::status_t android::SecCameraCoreManager::startPreview():start IT Policy checking thread
+03-05 09:35:41.780: D/ShotSingle(5918): startPreview
+03-05 09:35:41.928: D/KeyguardViewMediator(327): setHidden false
+03-05 09:35:41.944: I/ClipboardServiceEx(327): Send intent for dismiss clipboard dialog inside hideCurrentInputLocked() !
+03-05 09:35:41.944: D/KeyguardViewMediator(327): setHidden false
+03-05 09:35:41.959: D/KeyguardViewMediator(327): setHidden false
+03-05 09:35:41.959: D/(5918): PPM: Standby to first shot: Sensor Change completed -  :178.650 ms :  1362501341969 ms
+03-05 09:35:41.967: E/SurfaceFlinger(308): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:41.967: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:41.967: E/SurfaceFlinger(308): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:41.967: D/KeyguardViewMediator(327): setHidden false
+03-05 09:35:41.975: D/KeyguardViewMediator(327): setHidden false
+03-05 09:35:42.022: D/KeyguardViewMediator(327): setHidden false
+03-05 09:35:42.030: D/KeyguardViewMediator(327): setHidden false
+03-05 09:35:42.037: D/KeyguardViewMediator(327): setHidden false
+03-05 09:35:42.045: E/SurfaceFlinger(308): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.045: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.045: E/SurfaceFlinger(308): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.069: E/SurfaceFlinger(308): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.069: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.069: E/SurfaceFlinger(308): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.069: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.069: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.069: D/KeyguardViewMediator(327): setHidden false
+03-05 09:35:42.069: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.069: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.069: E/SurfaceFlinger(308): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.084: E/SurfaceFlinger(308): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.084: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.084: E/SurfaceFlinger(308): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.084: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.084: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.084: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.084: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.084: E/SurfaceFlinger(308): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.100: E/SurfaceFlinger(308): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.100: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.100: E/SurfaceFlinger(308): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.100: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.100: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.100: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.100: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.100: E/SurfaceFlinger(308): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.123: E/SurfaceFlinger(308): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.123: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.123: E/SurfaceFlinger(308): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.123: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.123: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.123: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.123: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.123: E/SurfaceFlinger(308): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.147: E/SurfaceFlinger(308): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.147: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.155: E/SurfaceFlinger(308): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.155: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.155: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.155: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.155: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.155: E/SurfaceFlinger(308): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.170: E/SurfaceFlinger(308): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.170: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.178: E/SurfaceFlinger(308): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.178: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.178: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.178: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.178: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.178: E/SurfaceFlinger(308): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.209: E/SurfaceFlinger(308): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.209: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.209: E/SurfaceFlinger(308): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.209: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.209: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.209: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.209: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.209: E/SurfaceFlinger(308): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.225: E/SurfaceFlinger(308): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.225: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.225: E/SurfaceFlinger(308): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.225: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.225: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.233: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.233: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.233: E/SurfaceFlinger(308): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.248: E/SurfaceFlinger(308): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.256: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.256: E/SurfaceFlinger(308): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.256: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.256: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.256: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.256: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.256: E/SurfaceFlinger(308): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.272: E/SurfaceFlinger(308): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.272: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.272: E/SurfaceFlinger(308): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.280: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.280: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.280: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.280: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.280: E/SurfaceFlinger(308): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.303: E/SurfaceFlinger(308): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.303: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.303: E/SurfaceFlinger(308): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.303: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.303: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.303: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.303: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.311: E/SurfaceFlinger(308): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.326: E/SurfaceFlinger(308): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.326: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.326: E/SurfaceFlinger(308): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.326: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.326: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.326: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.326: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.326: E/SurfaceFlinger(308): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.350: E/SurfaceFlinger(308): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.358: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.358: E/SurfaceFlinger(308): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.358: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.358: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.358: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.358: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.358: E/SurfaceFlinger(308): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.366: D/KeyguardViewMediator(327): setHidden false
+03-05 09:35:42.373: D/Launcher.HomeFragment(557): onStop
+03-05 09:35:42.373: D/Launcher(557): onStop, Launcher: 1099719264
+03-05 09:35:42.373: E/SurfaceFlinger(308): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.373: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.373: E/SurfaceFlinger(308): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.373: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.373: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.373: E/SurfaceFlinger(308): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+03-05 09:35:42.373: D/KeyguardViewMediator(327): setHidden false
+03-05 09:35:59.991: V/AlarmManager(327): waitForAlarm result :8
+03-05 09:35:59.998: V/AlarmManager(327): ClockReceiver onReceive() ACTION_TIME_TICK
+03-05 09:35:59.998: W/AlarmManager(327): FACTORY_ON= 0
+03-05 09:36:00.006: D/STATUSBAR-Clock(426): onReceive() - ACTION_TIME_TICK
+03-05 09:36:00.030: D/STATUSBAR-Clock(426): onReceive() - ACTION_TIME_TICK
+03-05 09:36:03.397: I/InputReader(327): Touch event's action is 0x0 (deviceType=0) [pCnt=1, s=0.370 ]
+03-05 09:36:03.397: I/InputDispatcher(327): Delivering touch to current input target: action: 0x0
+03-05 09:36:03.397: I/InputDispatcher(327): Delivering touch to current input target: action: 0x0
+03-05 09:36:03.397: I/InputDispatcher(327): Delivering touch to current input target: action: 0x0
+03-05 09:36:03.405: D/KeyguardViewMediator(327): setHidden false
+03-05 09:36:03.420: D/KeyguardViewMediator(327): setHidden false
+03-05 09:36:03.428: D/KeyguardViewMediator(327): setHidden false
+03-05 09:36:03.530: I/InputReader(327): Touch event's action is 0x1 (deviceType=0) [pCnt=1, s=]
+03-05 09:36:03.530: I/InputDispatcher(327): Delivering touch to current input target: action: 0x1
+03-05 09:36:03.530: I/InputDispatcher(327): Delivering touch to current input target: action: 0x1
+03-05 09:36:03.530: I/InputDispatcher(327): Delivering touch to current input target: action: 0x1
+03-05 09:36:03.561: I/MediaRecorderJNI(5553): prepare: surface=0x58eb9008 (identity=241)
+03-05 09:36:03.569: D/CameraSource(5918): Camera does not support setVideoSize()
+03-05 09:36:03.576: I/CameraHAL(5918): PreviewResolution by App 1280 x 720
+03-05 09:36:03.576: I/CameraHAL(5918): Recording Hint is set to NULL
+03-05 09:36:03.576: I/CameraHAL(5918): Focus mode set infinity
+03-05 09:36:03.576: I/CameraHAL(5918): Picture Size by App 640 x 480
+03-05 09:36:03.576: I/CameraHAL(5918): FRAMERATE 30
+03-05 09:36:03.576: I/CameraHAL(5918): FPS Range = 6000,30000
+03-05 09:36:03.576: I/CameraHAL(5918): DEFAULT FPS Range = 6000,30000
+03-05 09:36:03.576: I/CameraHAL(5918): SET FRAMERATE 30
+03-05 09:36:03.576: I/CameraHAL(5918): FPS Range [6, 30]
+03-05 09:36:03.576: I/CameraHAL(5918): GBCE Value = disable
+03-05 09:36:03.576: I/CameraHAL(5918): Exposure set = auto
+03-05 09:36:03.576: I/CameraHAL(5918): White balance set auto
+03-05 09:36:03.576: I/CameraHAL(5918): Contrast set 100
+03-05 09:36:03.576: I/CameraHAL(5918): Sharpness set 100
+03-05 09:36:03.576: I/CameraHAL(5918): Saturation set 100
+03-05 09:36:03.576: I/CameraHAL(5918): Brightness set 50
+03-05 09:36:03.576: I/CameraHAL(5918): Antibanding set 60hz
+03-05 09:36:03.576: I/CameraHAL(5918): ISO set auto
+03-05 09:36:03.576: I/CameraHAL(5918): Exposure compensation set 0
+03-05 09:36:03.576: I/CameraHAL(5918): Scene mode set auto
+03-05 09:36:03.576: I/CameraHAL(5918): Effect set none
+03-05 09:36:03.576: I/CameraHAL(5918): Jpeg quality set 95
+03-05 09:36:03.576: I/CameraHAL(5918): Thumbnail width set 160
+03-05 09:36:03.576: I/CameraHAL(5918): Thumbnail height set 120
+03-05 09:36:03.576: I/CameraHAL(5918): Thumbnail quality set 60
+03-05 09:36:03.576: I/CameraHAL(5918): EXIF Model set GT-P5113
+03-05 09:36:03.576: I/CameraHAL(5918): EXIF Make set Samsung
+03-05 09:36:03.576: I/CameraHAL(5918): Zoom set 0
+03-05 09:36:03.576: I/CameraHAL(5918): Auto Exposure Lock set false
+03-05 09:36:03.576: I/CameraHAL(5918): Auto WhiteBalance Lock set false
+03-05 09:36:03.576: I/CameraHAL(5918): Restarting Preview
+03-05 09:36:03.576: E/CameraHAL(5918): (400f6f30)   hardware/ti/omap4xxx/camera/espresso/BaseCameraAdapter.cpp:1792 setState - Adapter state switch PREVIEW_ACTIVE Invalid Op! event = 0xf
+03-05 09:36:03.967: E/OMXCodec(5918): [LEGO] else flags = 48
+03-05 09:36:03.983: V/AudioPolicyManagerBase(5918): getDeviceForInputSource()input source 5, device 00100000
+03-05 09:36:03.983: V/AudioPolicyManagerBase(5918): getInput() inputSource 5, samplingRate 48000, format 1, channelMask c, acoustics 7
+03-05 09:36:03.983: D/AudioHardwareTinyALSA(5918): Input	: format = 1, channels = 12, rate = 48000
+03-05 09:36:03.983: D/AudioHardwareTinyALSA(5918): default	: format = 0, channelCount = 2, rate = 44100
+03-05 09:36:03.983: D/AudioHardwareTinyALSA(5918): AudioStreamOps::set set IN_Channels : 10
+03-05 09:36:03.998: D/AudioHardwareTinyALSA(5918): mInputs.size : 1
+03-05 09:36:03.998: D/AudioHardwareTinyALSA(5918): Entering AudioStreamInALSA standby mode
+03-05 09:36:03.998: D/AudioHardwareTinyALSA(5918): Entering AudioStreamInALSA standby mode
+03-05 09:36:04.006: E/OMXCodec(5918): [LEGO] else flags = 0
+03-05 09:36:04.006: W/StagefrightRecorder(5918): audio source is exist, set interval to audio
+03-05 09:36:04.014: I/MPEG4Writer(5918): Start time offset: 700000 us
+03-05 09:36:04.014: I/AudioPolicyManagerBase(5918): getSituationVolume: isBTConnected:0 isHeadConnected:0
+03-05 09:36:04.014: V/AudioPolicyManagerBase(5918): getParamFromPolicy  deviceInt = 0, situationInt = 5, situationVolume = 1.000000
+03-05 09:36:04.053: I/AudioPlayer(5918):  Audioplayer kKeyAudioPCMFormat:1, 1, 0
+03-05 09:36:04.053: I/AudioPlayer(5918):  Audioplayer1 (1, 1)
+03-05 09:36:04.053: V/AudioPolicyManagerBase(5918): getOutput() stream 7, samplingRate 0, format 0, channelMask 3, flags 0
+03-05 09:36:04.053: V/AudioPolicyManagerBase(5918): getOutputsForDevice device 0002 -> 0002
+03-05 09:36:04.053: V/AudioPolicyManagerBase(5918): getOutput() returns output 2
+03-05 09:36:04.053: V/AudioPolicyManagerBase(5918): getOutput() stream 7, samplingRate 0, format 0, channelMask 3, flags 0
+03-05 09:36:04.053: V/AudioPolicyManagerBase(5918): getOutputsForDevice device 0002 -> 0002
+03-05 09:36:04.053: V/AudioPolicyManagerBase(5918): getOutput() returns output 2
+03-05 09:36:04.053: V/AudioPolicyManagerBase(5918): getOutput() stream 7, samplingRate 44100, format 1, channelMask 1, flags 0
+03-05 09:36:04.053: V/AudioPolicyManagerBase(5918): getOutputsForDevice device 0002 -> 0002
+03-05 09:36:04.053: V/AudioPolicyManagerBase(5918): getOutput() returns output 2
+03-05 09:36:04.053: V/AudioPolicyManagerBase(5918): getOutput() stream 7, samplingRate 0, format 0, channelMask 3, flags 0
+03-05 09:36:04.053: V/AudioPolicyManagerBase(5918): getOutputsForDevice device 0002 -> 0002
+03-05 09:36:04.053: V/AudioPolicyManagerBase(5918): getOutput() returns output 2
+03-05 09:36:04.053: V/LvOutput(5918): initCheck: 0
+03-05 09:36:04.053: V/LvOutput(5918): attachEffects: attach processing to output 2, stream 7, session 7, mode 0
+03-05 09:36:04.053: V/LvOutput(5918): attachEffects: no output processing needs to be attached to this stream
+03-05 09:36:04.053: V/LvOutput(5918): LvOutput::setAllProcessorEnabled(false) mOutputs.size(0)
+03-05 09:36:04.053: V/AudioPolicyManagerBase(5918): startOutput() output 2, stream 7, session 7
+03-05 09:36:04.053: V/AudioPolicyManagerBase(5918): changeRefCount() stream 7, count 1
+03-05 09:36:04.053: E/AudioPolicyManagerBase(5918): unknown stream type
+03-05 09:36:04.061: V/AudioPolicyManagerBase(5918): getNewDevice() selected device 2
+03-05 09:36:04.061: V/AudioPolicyManagerBase(5918): setOutputDevice() output 2 device 0002 force 0 delayMs 0 
+03-05 09:36:04.061: V/AudioPolicyManagerBase(5918): setOutputDevice() prevDevice 0002
+03-05 09:36:04.061: V/AudioPolicyManagerBase(5918): setOutputDevice() setting same device 0002 or null device for output 2
+03-05 09:36:04.061: E/CameraHAL(5918): (400f6f30)   hardware/ti/omap4xxx/camera/espresso/BaseCameraAdapter.cpp:1792 setState - Adapter state switch PREVIEW_ACTIVE Invalid Op! event = 0xf
+03-05 09:36:04.069: I/AudioHardwareTinyALSA(5918): AudioStreamOutALSA::write setDevice
+03-05 09:36:04.069: D/AudioHardwareTinyALSA(5918): OutALSA::setDevice: mode = 0, newDevice=0x2, currentDevice=0x2 ,force= 0
+03-05 09:36:04.069: D/AudioHardwareTinyALSA(5918): OutALSA::setDevice: mDevice 0x2, newDevice = 0x2
+03-05 09:36:04.069: D/AudioHardwareTinyALSA(5918): setOutputVolume
+03-05 09:36:04.069: D/TinyUCM(5918): setModifier Normal, en=1
+03-05 09:36:04.069: I/AudioHardwareTinyALSA(5918): OutALSA::setDevice: mHandle NULL mode[0], Device[00000002] 
+03-05 09:36:04.069: I/AudioHardwareTinyALSA(5918): Open: mDefaults->direction=0 device=0
+03-05 09:36:04.069: D/AudioHardwareTinyALSA(5918): Channel: 2, Samplerate: 44100, Format: 0, Peroid Size: 1024, Period Count: 4
+03-05 09:36:04.069: D/AudioHardwareTinyALSA(5918): setPcmInterface: Stream=0x1, iSamplerate=8000++
+03-05 09:36:04.069: D/AudioHardwareTinyALSA(5918): setPcmInterface--
+03-05 09:36:04.600: V/LvOutput(5918): initCheck: 0
+03-05 09:36:04.600: V/LvOutput(5918): detachEffects: detach processing for output 2, stream 7, session 7
+03-05 09:36:04.600: V/LvOutput(5918): detachEffects: no output processing was attached to this stream
+03-05 09:36:04.600: V/AudioPolicyManagerBase(5918): stopOutput() output 2, stream 7, session 7
+03-05 09:36:04.600: V/AudioPolicyManagerBase(5918): changeRefCount() stream 7, count 0
+03-05 09:36:04.600: E/AudioPolicyManagerBase(5918): unknown stream type
+03-05 09:36:04.600: E/AudioPolicyManagerBase(5918): unknown stream type
+03-05 09:36:04.600: E/AudioPolicyManagerBase(5918): unknown stream type
+03-05 09:36:04.600: E/AudioPolicyManagerBase(5918): unknown stream type
+03-05 09:36:04.600: E/AudioPolicyManagerBase(5918): unknown stream type
+03-05 09:36:04.600: E/AudioPolicyManagerBase(5918): unknown stream type
+03-05 09:36:04.600: V/AudioPolicyManagerBase(5918): getNewDevice() selected device 0
+03-05 09:36:04.600: V/AudioPolicyManagerBase(5918): setOutputDevice() output 2 device 0000 force 0 delayMs 184 
+03-05 09:36:04.600: V/AudioPolicyManagerBase(5918): setOutputDevice() prevDevice 0002
+03-05 09:36:04.600: V/AudioPolicyManagerBase(5918): setOutputDevice() setting same device 0000 or null device for output 2
+03-05 09:36:04.897: W/PowerManagerService(327): Timer 0x3->0x3|0x0
+03-05 09:36:05.155: E/Watchdog(327): !@Sync 403
+03-05 09:36:05.319: I/MPEG4Writer(5918): Start time offset: 700000 us
+03-05 09:36:05.319: V/AudioPolicyManagerBase(5918): startInput() input 10
+03-05 09:36:05.319: V/AudioPolicyManagerBase(5918): getDeviceForInputSource()input source 5, device 00100000
+03-05 09:36:05.319: V/AudioPolicyManagerBase(5918): AudioPolicyManager::startInput() input source = 5
+03-05 09:36:05.319: D/dalvikvm(327): WAIT_FOR_CONCURRENT_GC blocked 0ms
+03-05 09:36:05.451: D/dalvikvm(327): GC_EXPLICIT freed 1212K, 37% free 21669K/34055K, paused 11ms+9ms, total 127ms
+03-05 09:36:05.451: I/AudioHardwareTinyALSA(5918): virtual android::status_t android::AudioStreamInALSA::setParameters(const android::String8&): input_source=5;routing=1048576
+03-05 09:36:05.451: I/samsungRecord(5918): [samsungrecord] SamsungRecInit 
+03-05 09:36:05.451: I/samsungRecord(5918): 1
+03-05 09:36:05.451: D/AudioHardwareTinyALSA(5918): InALSA::setDevice: mode = 0, newDevice=0x100000, currentDevice=0x0 ,force= 0
+03-05 09:36:05.451: D/AudioHardwareTinyALSA(5918): InALSA::setDevice: mDevice 0x0, newDevice = 0x100000
+03-05 09:36:05.451: I/AudioHardwareTinyALSA(5918): InALSA::setDevice: mode[0], Device[00100000] force=0
+03-05 09:36:05.451: D/TinyUCM(5918): Enable 100000
+03-05 09:36:05.451: D/TinyUCM(5918): Disable 0
+03-05 09:36:05.451: D/TinyUCM(5918): getInputChannel: inputs = 0x100000
+03-05 09:36:05.451: D/TinyUCM(5918): set channel: Left
+03-05 09:36:05.451: D/TinyUCM(5918): setModifier MicRec, en=1
+03-05 09:36:05.451: D/AudioHardwareTinyALSA(5918): setInputVolume
+03-05 09:36:05.451: D/TinyUCM(5918): setModifier Camcorder, en=1
+03-05 09:36:05.451: E/TinyUCM(5918): modifier doesn't exists any more
+03-05 09:36:05.451: I/AudioHardwareTinyALSA(5918): InALSA::setDevice: mHandle NULL mode[0], Device[00100000]
+03-05 09:36:05.451: I/AudioHardwareTinyALSA(5918): Open: mDefaults->direction=10000000 device=0
+03-05 09:36:05.451: D/AudioHardwareTinyALSA(5918): Channel: 2, Samplerate: 44100, Format: 0, Peroid Size: 1024, Period Count: 4
+03-05 09:36:05.451: D/AudioHardwareTinyALSA(5918): setPcmInterface: Stream=0x2, iSamplerate=8000++
+03-05 09:36:05.451: D/AudioHardwareTinyALSA(5918): setPcmInterface--
+03-05 09:36:05.623: I/MPEG4Writer(5918): setStartTimestampUs: 774670
+03-05 09:36:05.623: I/MPEG4Writer(5918): Earliest track starting time: 774670
+03-05 09:36:05.647: D/(5918): PPM: Standby to first shot: Sensor Change completed -  :1021.58 ms :  1362501365650 ms
+03-05 09:36:05.951: I/MPEG4Writer(5918): setStartTimestampUs: 931653
+03-05 09:36:06.366: I/InputReader(327): Touch event's action is 0x0 (deviceType=0) [pCnt=1, s=0.371 ]
+03-05 09:36:06.366: I/InputDispatcher(327): Delivering touch to current input target: action: 0x0
+03-05 09:36:06.366: I/InputDispatcher(327): Delivering touch to current input target: action: 0x0
+03-05 09:36:06.366: I/InputDispatcher(327): Delivering touch to current input target: action: 0x0
+03-05 09:36:06.514: I/InputReader(327): Touch event's action is 0x1 (deviceType=0) [pCnt=1, s=]
+03-05 09:36:06.514: I/InputDispatcher(327): Delivering touch to current input target: action: 0x1
+03-05 09:36:06.514: I/InputDispatcher(327): Delivering touch to current input target: action: 0x1
+03-05 09:36:06.514: I/InputDispatcher(327): Delivering touch to current input target: action: 0x1
+03-05 09:36:06.522: D/MPEG4Writer(5918): Stopping Video track
+03-05 09:36:06.553: I/MPEG4Writer(5918): Received total/0-length (8/0) buffers and encoded 7 frames. - video
+03-05 09:36:06.561: D/MPEG4Writer(5918): Stopping Video track source
+03-05 09:36:06.584: D/CameraSource(5918): reset: E
+03-05 09:36:06.584: I/AudioPolicyManagerBase(5918): getSituationVolume: isBTConnected:0 isHeadConnected:0
+03-05 09:36:06.592: V/AudioPolicyManagerBase(5918): getParamFromPolicy  deviceInt = 0, situationInt = 5, situationVolume = 1.000000
+03-05 09:36:06.608: I/AudioPlayer(5918):  Audioplayer kKeyAudioPCMFormat:1, 1, 0
+03-05 09:36:06.608: I/AudioPlayer(5918):  Audioplayer1 (1, 1)
+03-05 09:36:06.608: V/AudioPolicyManagerBase(5918): getOutput() stream 7, samplingRate 0, format 0, channelMask 3, flags 0
+03-05 09:36:06.608: V/AudioPolicyManagerBase(5918): getOutputsForDevice device 0002 -> 0002
+03-05 09:36:06.608: V/AudioPolicyManagerBase(5918): getOutput() returns output 2
+03-05 09:36:06.608: V/AudioPolicyManagerBase(5918): getOutput() stream 7, samplingRate 0, format 0, channelMask 3, flags 0
+03-05 09:36:06.608: V/AudioPolicyManagerBase(5918): getOutputsForDevice device 0002 -> 0002
+03-05 09:36:06.608: V/AudioPolicyManagerBase(5918): getOutput() returns output 2
+03-05 09:36:06.608: V/AudioPolicyManagerBase(5918): getOutput() stream 7, samplingRate 44100, format 1, channelMask 1, flags 0
+03-05 09:36:06.608: V/AudioPolicyManagerBase(5918): getOutputsForDevice device 0002 -> 0002
+03-05 09:36:06.608: V/AudioPolicyManagerBase(5918): getOutput() returns output 2
+03-05 09:36:06.616: V/AudioPolicyManagerBase(5918): getOutput() stream 7, samplingRate 0, format 0, channelMask 3, flags 0
+03-05 09:36:06.616: V/AudioPolicyManagerBase(5918): getOutputsForDevice device 0002 -> 0002
+03-05 09:36:06.616: V/AudioPolicyManagerBase(5918): getOutput() returns output 2
+03-05 09:36:06.616: V/LvOutput(5918): initCheck: 0
+03-05 09:36:06.616: V/LvOutput(5918): attachEffects: attach processing to output 2, stream 7, session 8, mode 0
+03-05 09:36:06.616: V/LvOutput(5918): attachEffects: no output processing needs to be attached to this stream
+03-05 09:36:06.616: V/LvOutput(5918): LvOutput::setAllProcessorEnabled(false) mOutputs.size(0)
+03-05 09:36:06.616: V/AudioPolicyManagerBase(5918): startOutput() output 2, stream 7, session 8
+03-05 09:36:06.616: V/AudioPolicyManagerBase(5918): changeRefCount() stream 7, count 1
+03-05 09:36:06.616: E/AudioPolicyManagerBase(5918): unknown stream type
+03-05 09:36:06.616: V/AudioPolicyManagerBase(5918): getNewDevice() selected device 2
+03-05 09:36:06.616: V/AudioPolicyManagerBase(5918): setOutputDevice() output 2 device 0002 force 0 delayMs 0 
+03-05 09:36:06.616: V/AudioPolicyManagerBase(5918): setOutputDevice() prevDevice 0002
+03-05 09:36:06.616: V/AudioPolicyManagerBase(5918): setOutputDevice() setting same device 0002 or null device for output 2
+03-05 09:36:06.616: D/CameraSource(5918): reset: X
+03-05 09:36:06.616: D/MPEG4Writer(5918): Video track stopped
+03-05 09:36:06.616: D/MPEG4Writer(5918): Stopping Audio track
+03-05 09:36:06.717: I/MPEG4Writer(5918): Received total/0-length (53/0) buffers and encoded 52 frames. - audio
+03-05 09:36:06.717: I/MPEG4Writer(5918): Audio track drift time: 0 us
+03-05 09:36:06.717: D/MPEG4Writer(5918): Stopping Audio track source
+03-05 09:36:06.741: D/AudioHardwareTinyALSA(5918): Entering AudioStreamInALSA standby mode
+03-05 09:36:06.741: I/AudioHardwareTinyALSA(5918): Close mHandle:41acfab0
+03-05 09:36:06.748: V/AudioPolicyManagerBase(5918): stopInput() input 10
+03-05 09:36:06.748: I/AudioHardwareTinyALSA(5918): virtual android::status_t android::AudioStreamInALSA::setParameters(const android::String8&): routing=0
+03-05 09:36:06.748: D/MPEG4Writer(5918): Audio track stopped
+03-05 09:36:06.748: D/MPEG4Writer(5918): Duration from tracks range is [707215, 1109333] us
+03-05 09:36:06.748: D/MPEG4Writer(5918): Stopping writer thread
+03-05 09:36:06.748: D/MPEG4Writer(5918): 0 chunks are written in the last batch
+03-05 09:36:06.748: D/MPEG4Writer(5918): Writer thread stopped
+03-05 09:36:06.748: D/MPEG4Writer(5918): writeStszBox for Video track
+03-05 09:36:06.748: D/MPEG4Writer(5918): writeStszBox: X
+03-05 09:36:06.748: D/MPEG4Writer(5918): writeStszBox for Audio track
+03-05 09:36:06.748: D/MPEG4Writer(5918): writeStszBox: X
+03-05 09:36:06.756: D/MPEG4Writer(5918): Stopping Video track
+03-05 09:36:06.756: D/MPEG4Writer(5918): Stopping Audio track
+03-05 09:36:06.756: V/OMXNodeInstance(5918): calling destroyComponentInstance
+03-05 09:36:06.756: V/OMXNodeInstance(5918): destroyComponentInstance returned err 0
+03-05 09:36:06.756: V/OMXNodeInstance(5918): OMXNodeInstance going away.
+03-05 09:36:06.756: V/OMXNodeInstance(5918): calling destroyComponentInstance
+03-05 09:36:06.764: V/OMXNodeInstance(5918): destroyComponentInstance returned err 0
+03-05 09:36:06.764: V/OMXNodeInstance(5918): OMXNodeInstance going away.
+03-05 09:36:06.764: V/AudioPolicyManagerBase(5918): releaseInput() 10
+03-05 09:36:06.764: D/TinyUCM(5918): Disable 100000
+03-05 09:36:06.772: D/AudioHardwareTinyALSA(5918): Entering AudioStreamInALSA standby mode
+03-05 09:36:06.772: V/AudioPolicyManagerBase(5918): releaseInput() exit
+03-05 09:36:06.881: V/LvOutput(5918): initCheck: 0
+03-05 09:36:06.881: V/LvOutput(5918): detachEffects: detach processing for output 2, stream 7, session 8
+03-05 09:36:06.881: V/LvOutput(5918): detachEffects: no output processing was attached to this stream
+03-05 09:36:06.881: V/AudioPolicyManagerBase(5918): stopOutput() output 2, stream 7, session 8
+03-05 09:36:06.881: V/AudioPolicyManagerBase(5918): changeRefCount() stream 7, count 0
+03-05 09:36:06.881: E/AudioPolicyManagerBase(5918): unknown stream type
+03-05 09:36:06.881: E/AudioPolicyManagerBase(5918): unknown stream type
+03-05 09:36:06.881: E/AudioPolicyManagerBase(5918): unknown stream type
+03-05 09:36:06.881: E/AudioPolicyManagerBase(5918): unknown stream type
+03-05 09:36:06.881: E/AudioPolicyManagerBase(5918): unknown stream type
+03-05 09:36:06.881: E/AudioPolicyManagerBase(5918): unknown stream type
+03-05 09:36:06.881: V/AudioPolicyManagerBase(5918): getNewDevice() selected device 0
+03-05 09:36:06.881: V/AudioPolicyManagerBase(5918): setOutputDevice() output 2 device 0000 force 0 delayMs 184 
+03-05 09:36:06.881: V/AudioPolicyManagerBase(5918): setOutputDevice() prevDevice 0002
+03-05 09:36:06.881: V/AudioPolicyManagerBase(5918): setOutputDevice() setting same device 0000 or null device for output 2
+03-05 09:36:07.756: I/InputReader(327): Touch event's action is 0x0 (deviceType=0) [pCnt=1, s=0.372 ]
+03-05 09:36:07.756: I/InputDispatcher(327): Delivering touch to current input target: action: 0x0
+03-05 09:36:07.756: I/InputDispatcher(327): Delivering touch to current input target: action: 0x0
+03-05 09:36:07.756: I/InputDispatcher(327): Delivering touch to current input target: action: 0x0
+03-05 09:36:07.873: I/InputReader(327): Touch event's action is 0x1 (deviceType=0) [pCnt=1, s=]
+03-05 09:36:07.873: I/InputDispatcher(327): Delivering touch to current input target: action: 0x1
+03-05 09:36:07.873: I/InputDispatcher(327): Delivering touch to current input target: action: 0x1
+03-05 09:36:07.873: I/InputDispatcher(327): Delivering touch to current input target: action: 0x1
+03-05 09:36:07.873: I/camera->MainActivity(5553): Entering takePhotoButtonOnClickListener
+03-05 09:36:07.881: D/SecCameraCoreManager(5918): virtual android::status_t android::SecCameraCoreManager::takePicture():stop IT Policy checking thread
+03-05 09:36:07.920: E/CameraHAL(5918): (41a4fe40)   hardware/ti/omap4xxx/camera/espresso/CameraHal.cpp:2833 sendCommand - ERROR. cmd 1509 unhandled
+03-05 09:36:07.920: I/ShotSingle(5918): ShotSingle::takePicture start
+03-05 09:36:07.920: E/CameraHAL(5918): (41a4fe40)   hardware/ti/omap4xxx/camera/espresso/BaseCameraAdapter.cpp:1792 setState - Adapter state switch PREVIEW_ACTIVE Invalid Op! event = 0xf
+03-05 09:36:08.623: A/libc(5918): Fatal signal 11 (SIGSEGV) at 0x00000000 (code=1), thread 5923 (Binder_1)
+03-05 09:36:08.725: I/DEBUG(100): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+03-05 09:36:08.725: I/DEBUG(100): Build fingerprint: 'samsung/espresso10wifibby/espresso10wifi:4.1.1/JRO03C/P5113UECLK7:user/release-keys'
+03-05 09:36:08.725: I/DEBUG(100): pid: 5918, tid: 5923, name: Binder_1  >>> /system/bin/mediaserver <<<
+03-05 09:36:08.725: I/DEBUG(100): signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 00000000
+03-05 09:36:08.850: I/DEBUG(100):     r0 00000000  r1 0000003d  r2 00000000  r3 00000000
+03-05 09:36:08.850: I/DEBUG(100):     r4 40017531  r5 41c9c050  r6 00000000  r7 40017531
+03-05 09:36:08.850: I/DEBUG(100):     r8 00000000  r9 420b558c  sl 401a3a4c  fp 00000001
+03-05 09:36:08.850: I/DEBUG(100):     ip 4001df18  sp 425cbc78  lr 4001409d  pc 40175778  cpsr 20000030
+03-05 09:36:08.850: I/DEBUG(100):     d0  636e616c61626565  d1  72702d646572692d
+03-05 09:36:08.850: I/DEBUG(100):     d2  574549564552506c  d3  204556495443416f
+03-05 09:36:08.850: I/DEBUG(100):     d4  2c3535322c363432  d5  2c3337322c343632
+03-05 09:36:08.850: I/DEBUG(100):     d6  2c3339322c333832  d7  2c3431332c333033
+03-05 09:36:08.850: I/DEBUG(100):     d8  0000000000000000  d9  0000000000000000
+03-05 09:36:08.850: I/DEBUG(100):     d10 0000000000000000  d11 0000000000000000
+03-05 09:36:08.850: I/DEBUG(100):     d12 0000000000000000  d13 0000000000000000
+03-05 09:36:08.850: I/DEBUG(100):     d14 0000000000000000  d15 0000000000000000
+03-05 09:36:08.850: I/DEBUG(100):     d16 0000000000000001  d17 0000000000000000
+03-05 09:36:08.850: I/DEBUG(100):     d18 0000000000000000  d19 bf66b15fc8687d92
+03-05 09:36:08.850: I/DEBUG(100):     d20 3fc54acce2a1ec71  d21 3e66376972bea4d0
+03-05 09:36:08.850: I/DEBUG(100):     d22 3fc6c310da4e22ec  d23 3fd279de4b63ba27
+03-05 09:36:08.850: I/DEBUG(100):     d24 3fe6c310da4e22ec  d25 0000000000000000
+03-05 09:36:08.850: I/DEBUG(100):     d26 0000000000000000  d27 0000000000000000
+03-05 09:36:08.850: I/DEBUG(100):     d28 0000000000000000  d29 0000000000000000
+03-05 09:36:08.850: I/DEBUG(100):     d30 0000000000000000  d31 0000000000000000
+03-05 09:36:08.850: I/DEBUG(100):     scr 80000010
+03-05 09:36:08.858: I/DEBUG(100): backtrace:
+03-05 09:36:08.858: I/DEBUG(100):     #00  pc 00022778  /system/lib/libc.so (index+3)
+03-05 09:36:08.858: I/DEBUG(100):     #01  pc 00012099  /system/lib/libcamera_client.so (android::CameraParameters::set(char const*, char const*)+32)
+03-05 09:36:08.858: I/DEBUG(100):     #02  pc 0001d7bf  /system/lib/hw/camera.omap4.so (android::CameraHal::takePicture()+162)
+03-05 09:36:08.858: I/DEBUG(100):     #03  pc 0000df29  /system/lib/libseccameracore.so (android::ShotSingle::takePicture()+72)
+03-05 09:36:08.858: I/DEBUG(100):     #04  pc 0000c2fd  /system/lib/libseccameracore.so (android::SecCameraCoreManager::takePicture()+140)
+03-05 09:36:08.858: I/DEBUG(100):     #05  pc 000084cf  /system/lib/libcameraservice.so (android::CameraService::Client::takePicture(int)+126)
+03-05 09:36:08.858: I/DEBUG(100):     #06  pc 0001320f  /system/lib/libcamera_client.so (android::BnCamera::onTransact(unsigned int, android::Parcel const&, android::Parcel*, unsigned int)+474)
+03-05 09:36:08.858: I/DEBUG(100):     #07  pc 000143c9  /system/lib/libbinder.so (android::BBinder::transact(unsigned int, android::Parcel const&, android::Parcel*, unsigned int)+60)
+03-05 09:36:08.858: I/DEBUG(100):     #08  pc 00016fa5  /system/lib/libbinder.so (android::IPCThreadState::executeCommand(int)+520)
+03-05 09:36:08.858: I/DEBUG(100):     #09  pc 000173cd  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+184)
+03-05 09:36:08.858: I/DEBUG(100):     #10  pc 0001b171  /system/lib/libbinder.so
+03-05 09:36:08.858: I/DEBUG(100):     #11  pc 0001104f  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+114)
+03-05 09:36:08.858: I/DEBUG(100):     #12  pc 00010bb5  /system/lib/libutils.so
+03-05 09:36:08.858: I/DEBUG(100):     #13  pc 00012d20  /system/lib/libc.so (__thread_entry+48)
+03-05 09:36:08.858: I/DEBUG(100):     #14  pc 00012478  /system/lib/libc.so (pthread_create+172)
+03-05 09:36:08.858: I/DEBUG(100): stack:
+03-05 09:36:08.858: I/DEBUG(100):          425cbc38  401a3a4c  
+03-05 09:36:08.858: I/DEBUG(100):          425cbc3c  420be0ec  /system/lib/hw/camera.omap4.so (android::TICameraParameters::KEY_CAP_MODE)
+03-05 09:36:08.858: I/DEBUG(100):          425cbc40  00000000  
+03-05 09:36:08.858: I/DEBUG(100):          425cbc44  401a3a4c  
+03-05 09:36:08.858: I/DEBUG(100):          425cbc48  00000001  
+03-05 09:36:08.858: I/DEBUG(100):          425cbc4c  42097701  /system/lib/hw/camera.omap4.so (android::CameraHal::restartPreview()+128)
+03-05 09:36:08.858: I/DEBUG(100):          425cbc50  41c9c044  
+03-05 09:36:08.858: I/DEBUG(100):          425cbc54  40017500  /system/lib/libcamera_client.so (android::CameraParameters::SCENE_MODE_SPORTS+1)
+03-05 09:36:08.858: I/DEBUG(100):          425cbc58  ffffffe8  
+03-05 09:36:08.858: I/DEBUG(100):          425cbc5c  425cbc80  
+03-05 09:36:08.866: I/DEBUG(100):          425cbc60  ffffffe8  
+03-05 09:36:08.866: I/DEBUG(100):          425cbc64  425cbc78  
+03-05 09:36:08.866: I/DEBUG(100):          425cbc68  41c9c050  
+03-05 09:36:08.866: I/DEBUG(100):          425cbc6c  400ab6e5  /system/lib/libutils.so (android::String8::~String8()+14)
+03-05 09:36:08.866: I/DEBUG(100):          425cbc70  df0027ad  
+03-05 09:36:08.866: I/DEBUG(100):          425cbc74  00000000  
+03-05 09:36:08.866: I/DEBUG(100):     #00  425cbc78  41c9c050  
+03-05 09:36:08.866: I/DEBUG(100):          ........  ........
+03-05 09:36:08.866: I/DEBUG(100):     #01  425cbc78  41c9c050  
+03-05 09:36:08.866: I/DEBUG(100):          425cbc7c  40017531  /system/lib/libcamera_client.so (android::CameraParameters::KEY_RECORDING_HINT)
+03-05 09:36:08.866: I/DEBUG(100):          425cbc80  00000000  
+03-05 09:36:08.866: I/DEBUG(100):          425cbc84  b4ba9c42  
+03-05 09:36:08.866: I/DEBUG(100):          425cbc88  41c9c008  
+03-05 09:36:08.866: I/DEBUG(100):          425cbc8c  420c1ccc  /system/lib/hw/camera.omap4.so
+03-05 09:36:08.866: I/DEBUG(100):          425cbc90  41c9c050  
+03-05 09:36:08.866: I/DEBUG(100):          425cbc94  420977c3  /system/lib/hw/camera.omap4.so (android::CameraHal::takePicture()+166)
+03-05 09:36:08.866: I/DEBUG(100):     #02  425cbc98  00000000  
+03-05 09:36:08.866: I/DEBUG(100):          425cbc9c  00000000  
+03-05 09:36:08.866: I/DEBUG(100):          425cbca0  00000001  
+03-05 09:36:08.866: I/DEBUG(100):          425cbca4  401686e1  /system/lib/libc.so (dlfree+56)
+03-05 09:36:08.866: I/DEBUG(100):          425cbca8  c0000000  
+03-05 09:36:08.866: I/DEBUG(100):          425cbcac  00000042  
+03-05 09:36:08.866: I/DEBUG(100):          425cbcb0  00000000  
+03-05 09:36:08.866: I/DEBUG(100):          425cbcb4  00000018  
+03-05 09:36:08.866: I/DEBUG(100):          425cbcb8  41afe3a8  
+03-05 09:36:08.866: I/DEBUG(100):          425cbcbc  4196e1c4  /dev/__properties__ (deleted)
+03-05 09:36:08.866: I/DEBUG(100):          425cbcc0  41971c00  /dev/__properties__ (deleted)
+03-05 09:36:08.866: I/DEBUG(100):          425cbcc4  00000017  
+03-05 09:36:08.866: I/DEBUG(100):          425cbcc8  00000016  
+03-05 09:36:08.866: I/DEBUG(100):          425cbccc  b4ba9c42  
+03-05 09:36:08.866: I/DEBUG(100):          425cbcd0  00000000  
+03-05 09:36:08.866: I/DEBUG(100):          425cbcd4  00000000  
+03-05 09:36:08.866: I/DEBUG(100):          ........  ........
+03-05 09:36:08.873: I/DEBUG(100): memory near r4:
+03-05 09:36:08.873: I/DEBUG(100):     40017510 6f747561 6968772d 61626574 636e616c  auto-whitebalanc
+03-05 09:36:08.873: I/DEBUG(100):     40017520 6f6c2d65 732d6b63 6f707075 64657472  e-lock-supported
+03-05 09:36:08.873: I/DEBUG(100):     40017530 63657200 6964726f 682d676e 00746e69  .recording-hint.
+03-05 09:36:08.873: I/DEBUG(100):     40017540 63616562 6c630068 7964756f 7961642d  beach.cloudy-day
+03-05 09:36:08.873: I/DEBUG(100):     40017550 6867696c 75610074 772d6f74 65746968  light.auto-white
+03-05 09:36:08.873: I/DEBUG(100): memory near r5:
+03-05 09:36:08.873: I/DEBUG(100):     41c9c030 41d3c778 00000000 41d23f18 41003f48  x..A.....?.AH?.A
+03-05 09:36:08.873: I/DEBUG(100):     41c9c040 00000000 00000000 41a578e0 41d23f90  .........x.A.?.A
+03-05 09:36:08.873: I/DEBUG(100):     41c9c050 4001a900 41a875d0 00000052 00000000  ...@.u.AR.......
+03-05 09:36:08.873: I/DEBUG(100):     41c9c060 00000008 41a5e018 41000000 00000000  .......A...A....
+03-05 09:36:08.873: I/DEBUG(100):     41c9c070 00000000 00000000 00000000 00000000  ................
+03-05 09:36:08.873: I/DEBUG(100): memory near r7:
+03-05 09:36:08.873: I/DEBUG(100):     40017510 6f747561 6968772d 61626574 636e616c  auto-whitebalanc
+03-05 09:36:08.873: I/DEBUG(100):     40017520 6f6c2d65 732d6b63 6f707075 64657472  e-lock-supported
+03-05 09:36:08.873: I/DEBUG(100):     40017530 63657200 6964726f 682d676e 00746e69  .recording-hint.
+03-05 09:36:08.873: I/DEBUG(100):     40017540 63616562 6c630068 7964756f 7961642d  beach.cloudy-day
+03-05 09:36:08.873: I/DEBUG(100):     40017550 6867696c 75610074 772d6f74 65746968  light.auto-white
+03-05 09:36:08.873: I/DEBUG(100): memory near r9:
+03-05 09:36:08.873: I/DEBUG(100):     420b556c 73652f61 73657270 432f6f73 72656d61  a/espresso/Camer
+03-05 09:36:08.873: I/DEBUG(100):     420b557c 6c614861 646f4d5f 2e656c75 00707063  aHal_Module.cpp.
+03-05 09:36:08.873: I/DEBUG(100):     420b558c 78252800 73252029 73252020 2064253a  .(%x) %s  %s:%d 
+03-05 09:36:08.873: I/DEBUG(100):     420b559c 2d207325 74656720 706f7250 69747265  %s - getProperti
+03-05 09:36:08.873: I/DEBUG(100):     420b55ac 29287365 74657220 656e7275 20612064  es() returned a 
+03-05 09:36:08.873: I/DEBUG(100): memory near sl:
+03-05 09:36:08.873: I/DEBUG(100):     401a3a2c 00000000 00000000 00000000 00000000  ................
+03-05 09:36:08.873: I/DEBUG(100):     401a3a3c 00000000 00000000 00000000 00000000  ................
+03-05 09:36:08.873: I/DEBUG(100):     401a3a4c b4ba9c42 00000000 00000000 00000000  B...............
+03-05 09:36:08.873: I/DEBUG(100):     401a3a5c 00000000 00000000 00000000 00000000  ................
+03-05 09:36:08.873: I/DEBUG(100):     401a3a6c 00000000 00000000 00000000 00000000  ................
+03-05 09:36:08.873: I/DEBUG(100): memory near ip:
+03-05 09:36:08.873: I/DEBUG(100):     4001def8 400adf41 400ae0a9 400ab5c5 400ab887  A..@...@...@...@
+03-05 09:36:08.873: I/DEBUG(100):     4001df08 400ab86d 4016f525 4015f97c 4017d7ad  m..@%..@|..@...@
+03-05 09:36:08.873: I/DEBUG(100):     4001df18 40175775 400ae203 400ae149 4016f581  uW.@...@I..@...@
+03-05 09:36:08.873: I/DEBUG(100):     4001df28 400ae143 40173619 400ae075 400ab605  C..@.6.@u..@...@
+03-05 09:36:08.873: I/DEBUG(100):     4001df38 400a9c77 400a9c77 400a9c77 400a9c77  w..@w..@w..@w..@
+03-05 09:36:08.881: I/DEBUG(100): memory near sp:
+03-05 09:36:08.881: I/DEBUG(100):     425cbc58 ffffffe8 425cbc80 ffffffe8 425cbc78  ......\B....x.\B
+03-05 09:36:08.881: I/DEBUG(100):     425cbc68 41c9c050 400ab6e5 df0027ad 00000000  P..A...@.'......
+03-05 09:36:08.881: I/DEBUG(100):     425cbc78 41c9c050 40017531 00000000 b4ba9c42  P..A1u.@....B...
+03-05 09:36:08.881: I/DEBUG(100):     425cbc88 41c9c008 420c1ccc 41c9c050 420977c3  ...A...BP..A.w.B
+03-05 09:36:08.881: I/DEBUG(100):     425cbc98 00000000 00000000 00000001 401686e1  ...............@
+03-05 09:36:08.881: I/DEBUG(100): code around pc:
+03-05 09:36:08.881: I/DEBUG(100):     40175758 bd704620 2c0d3401 2000d1f4 bf00bd70   Fp..4.,... p...
+03-05 09:36:08.881: I/DEBUG(100):     40175768 000209d4 bf183000 47702001 4602b2c9  .....0... pG...F
+03-05 09:36:08.881: I/DEBUG(100):     40175778 46107813 428b3201 2b00d002 4618d1f8  .x.F.2.B...+...F
+03-05 09:36:08.881: I/DEBUG(100):     40175788 b5304770 18cb43d4 ebc2b2e4 f1dc0c04  pG0..C..........
+03-05 09:36:08.881: I/DEBUG(100):     40175798 eb450500 428b050c f045bf98 b9250501  ..E....B..E...%.
+03-05 09:36:08.881: I/DEBUG(100): code around lr:
+03-05 09:36:08.881: I/DEBUG(100):     4001407c 4608460c 4616213d eb82f7fe 4620bb50  .F.F=!.F....P. F
+03-05 09:36:08.881: I/DEBUG(100):     4001408c f7fe213b bb28eb7e 213d4630 eb78f7fe  ;!..~.(.0F=!..x.
+03-05 09:36:08.881: I/DEBUG(100):     4001409c 4621bb00 f7fe4668 4631eb50 f7fea801  ..!FhF..P.1F....
+03-05 09:36:08.881: I/DEBUG(100):     400140ac 4669eb4c f7fea802 a901eb24 f7fea803  L.iF....$.......
+03-05 09:36:08.881: I/DEBUG(100):     400140bc a902eb20 f7fe4628 a902eb6a f7fe4628   ...(F..j...(F..
+03-05 09:36:09.116: I/DEBUG(100): !@dumpstate -k -t -z -d -o /data/log/dumpstate_app_native -m 5918
+03-05 09:36:09.116: I/BootReceiver(327): Copying /data/tombstones/tombstone_07 to DropBox (SYSTEM_TOMBSTONE)
+03-05 09:36:09.123: I/dumpstate(5995): begin
+03-05 09:36:09.248: W/PowerManagerService(327): Timer 0x3->0x3|0x0
+03-05 09:36:15.116: D/VoldCmdListener(96): asec list
+03-05 09:36:15.819: I/dumpstate(5995): done
+03-05 09:36:15.873: D/AudioHardwareTinyALSA(5918): Entering AudioStreamOutALSA standby mode
+03-05 09:36:15.897: I/camera->MainActivity(5553): Leaving  takePhotoButtonOnClickListener
+03-05 09:36:15.905: W/Camera(5553): ICamera died
+03-05 09:36:15.905: W/IMediaDeathNotifier(5553): media server died
+03-05 09:36:15.905: I/ServiceManager(95): service 'media.audio_policy' died
+03-05 09:36:15.905: I/ServiceManager(95): service 'media.audio_flinger' died
+03-05 09:36:15.905: I/ServiceManager(95): service 'media.player' died
+03-05 09:36:15.905: I/ServiceManager(95): service 'media.camera' died
+03-05 09:36:15.905: W/AudioSystem(327): AudioPolicyService server died!
+03-05 09:36:15.905: W/AudioSystem(327): AudioFlinger server died!
+03-05 09:36:15.905: W/Camera(5553): Camera server died!
+03-05 09:36:15.905: E/PowerManagerService(327): WakeLock : binderDied()
+03-05 09:36:15.920: D/ICD(6032): icd .02 runs
+03-05 09:36:15.920: E/Camera(5553): Error 100
+03-05 09:36:15.920: E/camera->MainActivity(5553): ->myCameraErrorCallback Error 100 on camera object: android.hardware.Camera@419a8c20
+03-05 09:36:16.147: I/mediaserver(6031): ServiceManager: 0x41c68600
+03-05 09:36:16.147: I/AudioFlinger(6031): Using default 3000 mSec as standby time.
+03-05 09:36:16.147: I/CameraService(6031): CameraService started (pid=6031)
+03-05 09:36:16.162: I/AudioPolicyManagerBase(6031): ### stringToEnum() found AUDIO_DEVICE_OUT_EARPIECE
+03-05 09:36:16.162: I/AudioPolicyManagerBase(6031): ### stringToEnum() found AUDIO_DEVICE_OUT_SPEAKER
+03-05 09:36:16.162: V/AudioPolicyManagerBase(6031): loadGlobalConfig() mAttachedOutputDevices 0003
+03-05 09:36:16.162: I/AudioPolicyManagerBase(6031): ### stringToEnum() found AUDIO_DEVICE_OUT_SPEAKER
+03-05 09:36:16.162: V/AudioPolicyManagerBase(6031): loadGlobalConfig() mDefaultOutputDevice 0002
+03-05 09:36:16.162: I/AudioPolicyManagerBase(6031): ### stringToEnum() found AUDIO_DEVICE_IN_BUILTIN_MIC
+03-05 09:36:16.162: I/AudioPolicyManagerBase(6031): ### stringToEnum() found AUDIO_DEVICE_IN_BACK_MIC
+03-05 09:36:16.162: I/AudioPolicyManagerBase(6031): ### stringToEnum() found AUDIO_DEVICE_IN_VOICE_CALL
+03-05 09:36:16.162: V/AudioPolicyManagerBase(6031): loadGlobalConfig() remove : AUDIO_DEVICE_IN_BACK_MIC 2000000
+03-05 09:36:16.162: V/AudioPolicyManagerBase(6031): loadGlobalConfig() mAvailableInputDevices 1100000
+03-05 09:36:16.162: V/AudioPolicyManagerBase(6031): loadHwModules() loading module primary
+03-05 09:36:16.162: V/AudioPolicyManagerBase(6031): loadHwModule() loading output primary
+03-05 09:36:16.162: V/AudioPolicyManagerBase(6031): loadSamplingRates() adding rate 44100
+03-05 09:36:16.162: V/AudioPolicyManagerBase(6031): loadOutChannels() AUDIO_CHANNEL_OUT_STEREO
+03-05 09:36:16.162: I/AudioPolicyManagerBase(6031): ### stringToEnum() found AUDIO_CHANNEL_OUT_STEREO
+03-05 09:36:16.162: I/AudioPolicyManagerBase(6031): ### stringToEnum() found AUDIO_FORMAT_PCM_16_BIT
+03-05 09:36:16.162: I/AudioPolicyManagerBase(6031): ### stringToEnum() found AUDIO_DEVICE_OUT_EARPIECE
+03-05 09:36:16.162: I/AudioPolicyManagerBase(6031): ### stringToEnum() found AUDIO_DEVICE_OUT_SPEAKER
+03-05 09:36:16.162: I/AudioPolicyManagerBase(6031): ### stringToEnum() found AUDIO_DEVICE_OUT_ALL_SCO
+03-05 09:36:16.162: I/AudioPolicyManagerBase(6031): ### stringToEnum() found AUDIO_DEVICE_OUT_WIRED_HEADSET
+03-05 09:36:16.162: I/AudioPolicyManagerBase(6031): ### stringToEnum() found AUDIO_DEVICE_OUT_WIRED_HEADPHONE
+03-05 09:36:16.162: I/AudioPolicyManagerBase(6031): ### stringToEnum() found AUDIO_DEVICE_OUT_ANLG_DOCK_HEADSET
+03-05 09:36:16.162: I/AudioPolicyManagerBase(6031): ### stringToEnum() found AUDIO_OUTPUT_FLAG_PRIMARY
+03-05 09:36:16.162: V/AudioPolicyManagerBase(6031): loadOutput() adding output mSupportedDevices 087f, mFlags 0002
+03-05 09:36:16.162: V/AudioPolicyManagerBase(6031): loadHwModule() loading output hdmi
+03-05 09:36:16.162: V/AudioPolicyManagerBase(6031): loadSamplingRates() adding rate 44100
+03-05 09:36:16.162: V/AudioPolicyManagerBase(6031): loadSamplingRates() adding rate 48000
+03-05 09:36:16.162: V/AudioPolicyManagerBase(6031): loadOutChannels() dynamic
+03-05 09:36:16.162: I/AudioPolicyManagerBase(6031): ### stringToEnum() found AUDIO_FORMAT_PCM_16_BIT
+03-05 09:36:16.162: I/AudioPolicyManagerBase(6031): ### stringToEnum() found AUDIO_DEVICE_OUT_AUX_DIGITAL
+03-05 09:36:16.162: I/AudioPolicyManagerBase(6031): ### stringToEnum() found AUDIO_DEVICE_OUT_DGTL_DOCK_HEADSET
+03-05 09:36:16.162: I/AudioPolicyManagerBase(6031): ### stringToEnum() found AUDIO_OUTPUT_FLAG_MULTI_CH
+03-05 09:36:16.162: V/AudioPolicyManagerBase(6031): loadOutput() adding output mSupportedDevices 1400, mFlags 0010
+03-05 09:36:16.162: V/AudioPolicyManagerBase(6031): loadHwModule() loading input primary
+03-05 09:36:16.162: V/AudioPolicyManagerBase(6031): loadSamplingRates() adding rate 8000
+03-05 09:36:16.162: V/AudioPolicyManagerBase(6031): loadSamplingRates() adding rate 11025
+03-05 09:36:16.162: V/AudioPolicyManagerBase(6031): loadSamplingRates() adding rate 16000
+03-05 09:36:16.162: V/AudioPolicyManagerBase(6031): loadSamplingRates() adding rate 22050
+03-05 09:36:16.162: V/AudioPolicyManagerBase(6031): loadSamplingRates() adding rate 24000
+03-05 09:36:16.162: V/AudioPolicyManagerBase(6031): loadSamplingRates() adding rate 32000
+03-05 09:36:16.162: V/AudioPolicyManagerBase(6031): loadSamplingRates() adding rate 44100
+03-05 09:36:16.162: V/AudioPolicyManagerBase(6031): loadSamplingRates() adding rate 48000
+03-05 09:36:16.162: V/AudioPolicyManagerBase(6031): loadInChannels() AUDIO_CHANNEL_IN_MONO
+03-05 09:36:16.162: I/AudioPolicyManagerBase(6031): ### stringToEnum() found AUDIO_CHANNEL_IN_MONO
+03-05 09:36:16.162: V/AudioPolicyManagerBase(6031): loadInChannels() adding channelMask 0010
+03-05 09:36:16.162: I/AudioPolicyManagerBase(6031): ### stringToEnum() found AUDIO_CHANNEL_IN_STEREO
+03-05 09:36:16.162: V/AudioPolicyManagerBase(6031): loadInChannels() adding channelMask 000c
+03-05 09:36:16.162: I/AudioPolicyManagerBase(6031): ### stringToEnum() found AUDIO_FORMAT_PCM_16_BIT
+03-05 09:36:16.162: I/AudioPolicyManagerBase(6031): ### stringToEnum() found AUDIO_DEVICE_IN_BUILTIN_MIC
+03-05 09:36:16.162: I/AudioPolicyManagerBase(6031): ### stringToEnum() found AUDIO_DEVICE_IN_BLUETOOTH_SCO_HEADSET
+03-05 09:36:16.162: I/AudioPolicyManagerBase(6031): ### stringToEnum() found AUDIO_DEVICE_IN_WIRED_HEADSET
+03-05 09:36:16.162: I/AudioPolicyManagerBase(6031): ### stringToEnum() found AUDIO_DEVICE_IN_BACK_MIC
+03-05 09:36:16.162: I/AudioPolicyManagerBase(6031): ### stringToEnum() found AUDIO_DEVICE_IN_FM
+03-05 09:36:16.162: I/AudioPolicyManagerBase(6031): ### stringToEnum() found AUDIO_DEVICE_IN_VOICE_CALL
+03-05 09:36:16.162: V/AudioPolicyManagerBase(6031): loadInput() adding input mSupportedDevices 7700000
+03-05 09:36:16.162: V/AudioPolicyManagerBase(6031): loadHwModules() loading module a2dp
+03-05 09:36:16.162: V/AudioPolicyManagerBase(6031): loadHwModule() loading output a2dp
+03-05 09:36:16.162: V/AudioPolicyManagerBase(6031): loadSamplingRates() adding rate 44100
+03-05 09:36:16.162: V/AudioPolicyManagerBase(6031): loadOutChannels() AUDIO_CHANNEL_OUT_STEREO
+03-05 09:36:16.162: I/AudioPolicyManagerBase(6031): ### stringToEnum() found AUDIO_CHANNEL_OUT_STEREO
+03-05 09:36:16.162: I/AudioPolicyManagerBase(6031): ### stringToEnum() found AUDIO_FORMAT_PCM_16_BIT
+03-05 09:36:16.162: I/AudioPolicyManagerBase(6031): ### stringToEnum() found AUDIO_DEVICE_OUT_ALL_A2DP
+03-05 09:36:16.162: V/AudioPolicyManagerBase(6031): loadOutput() adding output mSupportedDevices 0380, mFlags 0000
+03-05 09:36:16.162: V/AudioPolicyManagerBase(6031): loadHwModules() loading module usb
+03-05 09:36:16.162: V/AudioPolicyManagerBase(6031): loadHwModule() loading output usb_accessory
+03-05 09:36:16.162: V/AudioPolicyManagerBase(6031): loadSamplingRates() adding rate 44100
+03-05 09:36:16.162: V/AudioPolicyManagerBase(6031): loadOutChannels() AUDIO_CHANNEL_OUT_STEREO
+03-05 09:36:16.162: I/AudioPolicyManagerBase(6031): ### stringToEnum() found AUDIO_CHANNEL_OUT_STEREO
+03-05 09:36:16.162: I/AudioPolicyManagerBase(6031): ### stringToEnum() found AUDIO_FORMAT_PCM_16_BIT
+03-05 09:36:16.162: I/AudioPolicyManagerBase(6031): ### stringToEnum() found AUDIO_DEVICE_OUT_USB_ACCESSORY
+03-05 09:36:16.162: V/AudioPolicyManagerBase(6031): loadOutput() adding output mSupportedDevices 2000, mFlags 0000
+03-05 09:36:16.162: V/AudioPolicyManagerBase(6031): loadHwModule() loading output usb_device
+03-05 09:36:16.162: V/AudioPolicyManagerBase(6031): loadSamplingRates() adding rate 44100
+03-05 09:36:16.162: V/AudioPolicyManagerBase(6031): loadOutChannels() AUDIO_CHANNEL_OUT_STEREO
+03-05 09:36:16.162: I/AudioPolicyManagerBase(6031): ### stringToEnum() found AUDIO_CHANNEL_OUT_STEREO
+03-05 09:36:16.162: I/AudioPolicyManagerBase(6031): ### stringToEnum() found AUDIO_FORMAT_PCM_16_BIT
+03-05 09:36:16.162: I/AudioPolicyManagerBase(6031): ### stringToEnum() found AUDIO_DEVICE_OUT_USB_DEVICE
+03-05 09:36:16.162: V/AudioPolicyManagerBase(6031): loadOutput() adding output mSupportedDevices 4000, mFlags 0000
+03-05 09:36:16.162: V/AudioPolicyManagerBase(6031): loadHwModules() loading module wfd
+03-05 09:36:16.162: V/AudioPolicyManagerBase(6031): loadHwModule() loading output wfd
+03-05 09:36:16.162: V/AudioPolicyManagerBase(6031): loadSamplingRates() adding rate 48000
+03-05 09:36:16.162: V/AudioPolicyManagerBase(6031): loadOutChannels() AUDIO_CHANNEL_OUT_STEREO
+03-05 09:36:16.162: I/AudioPolicyManagerBase(6031): ### stringToEnum() found AUDIO_CHANNEL_OUT_STEREO
+03-05 09:36:16.162: I/AudioPolicyManagerBase(6031): ### stringToEnum() found AUDIO_FORMAT_PCM_16_BIT
+03-05 09:36:16.162: I/AudioPolicyManagerBase(6031): ### stringToEnum() found AUDIO_DEVICE_OUT_EXTERNAL_WIFI
+03-05 09:36:16.162: I/AudioPolicyManagerBase(6031): ### stringToEnum() found AUDIO_OUTPUT_FLAG_WFD
+03-05 09:36:16.162: V/AudioPolicyManagerBase(6031): loadOutput() adding output mSupportedDevices 8000, mFlags 0020
+03-05 09:36:16.162: V/AudioPolicyManagerBase(6031): loadHwModules() loading module tms
+03-05 09:36:16.162: V/AudioPolicyManagerBase(6031): loadHwModule() loading output tms
+03-05 09:36:16.162: V/AudioPolicyManagerBase(6031): loadSamplingRates() adding rate 44100
+03-05 09:36:16.162: V/AudioPolicyManagerBase(6031): loadOutChannels() AUDIO_CHANNEL_OUT_STEREO
+03-05 09:36:16.162: I/AudioPolicyManagerBase(6031): ### stringToEnum() found AUDIO_CHANNEL_OUT_STEREO
+03-05 09:36:16.162: I/AudioPolicyManagerBase(6031): ### stringToEnum() found AUDIO_FORMAT_PCM_16_BIT
+03-05 09:36:16.162: I/AudioPolicyManagerBase(6031): ### stringToEnum() found AUDIO_DEVICE_OUT_EXTERNAL_TMS
+03-05 09:36:16.162: V/AudioPolicyManagerBase(6031): loadOutput() adding output mSupportedDevices 10000, mFlags 0000
+03-05 09:36:16.162: V/AudioPolicyManagerBase(6031): loadHwModule() loading input tms
+03-05 09:36:16.162: V/AudioPolicyManagerBase(6031): loadSamplingRates() adding rate 44100
+03-05 09:36:16.162: V/AudioPolicyManagerBase(6031): loadInChannels() AUDIO_CHANNEL_IN_MONO
+03-05 09:36:16.162: I/AudioPolicyManagerBase(6031): ### stringToEnum() found AUDIO_CHANNEL_IN_MONO
+03-05 09:36:16.162: V/AudioPolicyManagerBase(6031): loadInChannels() adding channelMask 0010
+03-05 09:36:16.162: I/AudioPolicyManagerBase(6031): ### stringToEnum() found AUDIO_CHANNEL_IN_STEREO
+03-05 09:36:16.162: V/AudioPolicyManagerBase(6031): loadInChannels() adding channelMask 000c
+03-05 09:36:16.162: I/AudioPolicyManagerBase(6031): ### stringToEnum() found AUDIO_FORMAT_PCM_16_BIT
+03-05 09:36:16.162: I/AudioPolicyManagerBase(6031): ### stringToEnum() found AUDIO_DEVICE_IN_EXTERNAL_TMS
+03-05 09:36:16.162: V/AudioPolicyManagerBase(6031): loadInput() adding input mSupportedDevices 10000000
+03-05 09:36:16.162: I/AudioPolicyManagerBase(6031): loadAudioPolicyConfig() loaded /vendor/etc/audio_policy.conf
+03-05 09:36:16.162: D/TinyUCM(6031): Configuration file path:/etc/tinyucm.conf
+03-05 09:36:16.170: E/TinyUCM(6031): 22.29: This output device support only one mic
+03-05 09:36:16.170: E/TinyUCM(6031): 23.32: This output device support only one mic
+03-05 09:36:16.170: E/TinyUCM(6031): 24.31: This output device support only one mic
+03-05 09:36:16.170: E/TinyUCM(6031): 25.40: This output device support only one mic
+03-05 09:36:16.170: E/TinyUCM(6031): 26.28: This output device support only one mic
+03-05 09:36:16.350: E/TinyUCM(6031): Failed to get Sub Mic Switch
+03-05 09:36:16.358: I/TinyUCM(6031): Got device Speaker
+03-05 09:36:16.358: I/TinyUCM(6031): Got device Headset Out
+03-05 09:36:16.358: I/TinyUCM(6031): Got device Headphone
+03-05 09:36:16.358: I/TinyUCM(6031): Got device SCO Headset Out
+03-05 09:36:16.366: I/TinyUCM(6031): Got device SCO
+03-05 09:36:16.366: I/TinyUCM(6031): Got device SCO Carkit
+03-05 09:36:16.366: I/TinyUCM(6031): Got device Analogue Dock Out
+03-05 09:36:16.366: I/TinyUCM(6031): Got device Builtin Mic
+03-05 09:36:16.366: I/TinyUCM(6031): Got device Headset In
+03-05 09:36:16.366: I/TinyUCM(6031): Got device SCO Headset In
+03-05 09:36:16.366: I/TinyUCM(6031): Got verb Normal
+03-05 09:36:16.366: I/TinyUCM(6031): Got verb Ringtone
+03-05 09:36:16.366: I/TinyUCM(6031): Got verb Communication
+03-05 09:36:16.366: I/TinyUCM(6031): Got verb Voicecall
+03-05 09:36:16.366: I/TinyUCM(6031): Got verb Loopback
+03-05 09:36:16.366: I/TinyUCM(6031): Got channel Left
+03-05 09:36:16.366: I/TinyUCM(6031): Got channel Right
+03-05 09:36:16.366: I/TinyUCM(6031): Got channel Stereo
+03-05 09:36:16.366: D/TinyUCM(6031): modifier file = /etc/default_gain.conf
+03-05 09:36:16.381: E/AudioRil(6031): Connect_RILD() error
+03-05 09:36:16.381: E/AudioRil(6031): audio secril init failed.
+03-05 09:36:16.381: I/AudioFlinger(6031): loadHwModule() Loaded primary audio interface from Samsung SMDK4x12 audio hw HAL (audio) handle 1
+03-05 09:36:16.381: D/SoundBooster(6031): SoundBoosterInit(): sampleRate=44100
+03-05 09:36:16.381: D/AudioHardwareTinyALSA(6031): Input	: format = 1, channels = 3, rate = 44100
+03-05 09:36:16.381: D/AudioHardwareTinyALSA(6031): default	: format = 0, channelCount = 2, rate = 44100
+03-05 09:36:16.381: I/AudioHardwareTinyALSA(6031): Setting ALSA device.
+03-05 09:36:16.381: I/AudioFlinger(6031): HAL output buffer size 1024 frames, normal mix buffer size 1024 frames
+03-05 09:36:16.389: I/AudioMixer(6031): found effect "Multichannel Downmix To Stereo" from The Android Open Source Project
+03-05 09:36:16.389: I/AudioFlinger(6031): Using module 1 has the primary audio interface
+03-05 09:36:16.389: I/AudioFlinger(6031): AudioFlinger's thread 0x42210008 ready to run
+03-05 09:36:16.389: D/AudioHardwareInterface(6031): setMode(NORMAL)
+03-05 09:36:16.389: D/AudioHardwareTinyALSA(6031): setMode 0
+03-05 09:36:16.389: D/AudioHardwareTinyALSA(6031): Leaving IN_CALL state, in_call=0
+03-05 09:36:16.389: D/TinyUCM(6031): setverb Normal
+03-05 09:36:16.389: D/AudioHardwareTinyALSA(6031): setOutputVolume
+03-05 09:36:16.389: D/TinyUCM(6031): setModifier Normal, en=1
+03-05 09:36:16.389: D/TinyUCM(6031): setModifier Audio_GND_Switch, en=0
+03-05 09:36:16.389: E/TinyUCM(6031): modifier doesn't exists any more
+03-05 09:36:16.389: V/AudioPolicyManagerBase(6031): setOutputDevice() output 2 device 0002 force 1 delayMs 0 
+03-05 09:36:16.389: V/AudioPolicyManagerBase(6031): setOutputDevice() prevDevice 0002
+03-05 09:36:16.389: V/AudioPolicyManagerBase(6031): setStreamMute() unmuting non muted stream!
+03-05 09:36:16.389: D/AudioHardwareTinyALSA(6031): Entering AudioStreamOutALSA standby mode
+03-05 09:36:16.389: V/AudioPolicyManagerBase(6031): setStreamMute() unmuting non muted stream!
+03-05 09:36:16.389: V/AudioPolicyManagerBase(6031): setStreamMute() unmuting non muted stream!
+03-05 09:36:16.389: E/AudioPolicyManagerBase(6031): unknown stream type
+03-05 09:36:16.389: V/AudioPolicyManagerBase(6031): setStreamMute() unmuting non muted stream!
+03-05 09:36:16.389: E/AudioPolicyManagerBase(6031): unknown stream type
+03-05 09:36:16.389: V/AudioPolicyManagerBase(6031): setStreamMute() unmuting non muted stream!
+03-05 09:36:16.389: V/AudioPolicyManagerBase(6031): setStreamMute() unmuting non muted stream!
+03-05 09:36:16.389: E/AudioPolicyManagerBase(6031): unknown stream type
+03-05 09:36:16.397: V/AudioPolicyManagerBase(6031): setStreamMute() unmuting non muted stream!
+03-05 09:36:16.397: V/AudioPolicyManagerBase(6031): setStreamMute() unmuting non muted stream!
+03-05 09:36:16.397: E/AudioPolicyManagerBase(6031): unknown stream type
+03-05 09:36:16.397: V/AudioPolicyManagerBase(6031): setStreamMute() unmuting non muted stream!
+03-05 09:36:16.397: V/AudioPolicyManagerBase(6031): setStreamMute() unmuting non muted stream!
+03-05 09:36:16.397: V/AudioPolicyManagerBase(6031): setStreamMute() unmuting non muted stream!
+03-05 09:36:16.397: E/AudioPolicyManagerBase(6031): unknown stream type
+03-05 09:36:16.397: E/AudioPolicyManagerBase(6031): unknown stream type
+03-05 09:36:16.397: E/AudioPolicyManagerBase(6031): unknown stream type
+03-05 09:36:16.397: E/AudioPolicyManagerBase(6031): unknown stream type
+03-05 09:36:16.397: V/AudioPolicyManagerBase(6031): setStreamMute() unmuting non muted stream!
+03-05 09:36:16.397: E/AudioPolicyManagerBase(6031): unknown stream type
+03-05 09:36:16.397: E/AudioPolicyManagerBase(6031): unknown stream type
+03-05 09:36:16.397: V/AudioPolicyManagerBase(6031): setStreamMute() unmuting non muted stream!
+03-05 09:36:16.397: E/AudioPolicyManagerBase(6031): unknown stream type
+03-05 09:36:16.397: E/AudioPolicyManagerBase(6031): unknown stream type
+03-05 09:36:16.397: V/AudioPolicyManagerBase(6031): setOutputDevice() changing device(0x2)
+03-05 09:36:16.397: I/AudioHardwareTinyALSA(6031): AudioStreamOutALSA::setParameters() routing=2
+03-05 09:36:16.397: I/AudioHardwareTinyALSA(6031): mParent->isFactoryRouteEnable()=0
+03-05 09:36:16.397: I/AudioHardwareTinyALSA(6031): mLoopbackDevice=0
+03-05 09:36:16.397: D/AudioHardwareTinyALSA(6031): OutALSA::setDevice: mode = 0, newDevice=0x2, currentDevice=0x0 ,force= 0
+03-05 09:36:16.397: D/AudioHardwareTinyALSA(6031): OutALSA::setDevice: mDevice 0x0, newDevice = 0x2
+03-05 09:36:16.397: D/TinyUCM(6031): Enable 2
+03-05 09:36:16.420: I/ICD(6032): OEM FLAG: 0
+03-05 09:36:16.420: D/ICD(6032): icd (1)
+03-05 09:36:16.459: D/TinyUCM(6031): Disable 0
+03-05 09:36:16.459: D/AudioHardwareTinyALSA(6031): setOutputVolume
+03-05 09:36:16.459: D/TinyUCM(6031): setModifier Normal, en=1
+03-05 09:36:16.459: D/AudioHardwareTinyALSA(6031): setPcmInterface: Stream=0x1, iSamplerate=8000++
+03-05 09:36:16.459: D/AudioHardwareTinyALSA(6031): setPcmInterface--
+03-05 09:36:16.459: I/AudioHardwareTinyALSA(6031): ### setVoiceVolume (0.000000)
+03-05 09:36:16.459: E/AudioPolicyManagerBase(6031): unknown stream type
+03-05 09:36:16.459: E/AudioPolicyManagerBase(6031): unknown stream type
+03-05 09:36:16.459: E/AudioPolicyManagerBase(6031): unknown stream type
+03-05 09:36:16.459: E/AudioPolicyManagerBase(6031): unknown stream type
+03-05 09:36:16.459: E/AudioPolicyManagerBase(6031): unknown stream type
+03-05 09:36:16.459: E/AudioPolicyManagerBase(6031): unknown stream type
+03-05 09:36:16.459: V/AudioPolicyManagerBase(6031): getNewDevice() selected device 0
+03-05 09:36:16.467: V/AudioPolicyManagerBase(6031): checkAndSetVolume() cannot set stream 6 volume with force use = 0 for comm
+03-05 09:36:16.467: I/AudioFlinger(6031): loadHwModule() Loaded a2dp audio interface from A2DP Audio HW HAL (audio) handle 3
+03-05 09:36:16.467: I/AudioFlinger(6031): loadHwModule() Loaded usb audio interface from USB audio HW HAL (audio) handle 4
+03-05 09:36:16.467: I/AudioFlinger(6031): loadHwModule() Loaded wfd audio interface from External Audio HW HAL (audio) handle 5
+03-05 09:36:16.475: E/AudioFlinger(6031): int android::load_audio_interface(char const*, audio_hw_device_t**) couldn't load audio hw module audio.tms (No such file or directory)
+03-05 09:36:16.475: I/AudioFlinger(6031): loadHwModule() error -2 loading module tms 
+03-05 09:36:16.475: W/AudioPolicyManagerBase(6031): could not open HW module tms
+03-05 09:36:16.491: D/Audio_Control_CSC(6031): get_CS_ISO_Code country_code = CA
+03-05 09:36:16.491: D/Audio_Control_CSC(6031): checkCSCAndSetSysProperty() mark property to audio.country when including SalesCodes
+03-05 09:36:16.491: D/Audio_Control_CSC(6031): get_CS_ISO_Code country_code = CA
+03-05 09:36:16.491: D/Audio_Control_CSC(6031): checkCSCAndSetSysProperty()_mCount = 2, mValue_salescode = XAC
+03-05 09:36:16.491: D/Audio_Control_CSC(6031): checkCSCAndSetSysProperty()_gEPSalesCodes = SPR
+03-05 09:36:16.491: D/Audio_Control_CSC(6031): checkCSCAndSetSysProperty()_gEPSalesCodes = VMU
+03-05 09:36:16.491: D/Audio_Control_CSC(6031): getCameraShutterOn()_mbIsShutterOn = 0
+03-05 09:36:16.491: V/AudioPolicyManagerBase(6031): setSystemProperty() property ro.camera.sound.forced, value 0
+03-05 09:36:16.491: V/AudioPolicyManagerBase(6031): ENFORCED_AUDIBLE can be muted
+03-05 09:36:16.491: I/AudioPolicyService(6031): Loaded audio policy from Samsung SMDK4x12 audio policy HAL (audio_policy)
+03-05 09:36:16.491: W/AudioPolicyService(6031): loadInputSource() empty element camcorder
+03-05 09:36:16.491: V/LvOutput(6031): Constructor
+03-05 09:36:16.491: V/LvOutput(6031): loadEffects() loading effect bassboost
+03-05 09:36:16.491: V/LvOutput(6031): loadEffects() loading effect virtualizer
+03-05 09:36:16.491: V/LvOutput(6031): loadEffects() loading effect equalizer
+03-05 09:36:16.491: V/LvOutput(6031): loadEffects() loading effect volume
+03-05 09:36:16.491: V/LvOutput(6031): loadEffects() loading effect reverb_env_aux
+03-05 09:36:16.491: V/LvOutput(6031): loadEffects() loading effect reverb_env_ins
+03-05 09:36:16.491: V/LvOutput(6031): loadEffects() loading effect reverb_pre_aux
+03-05 09:36:16.491: V/LvOutput(6031): loadEffects() loading effect reverb_pre_ins
+03-05 09:36:16.491: V/LvOutput(6031): loadEffects() loading effect visualizer
+03-05 09:36:16.491: V/LvOutput(6031): loadEffects() loading effect downmix
+03-05 09:36:16.491: V/LvOutput(6031): loadEffects() loading effect agc
+03-05 09:36:16.491: V/LvOutput(6031): loadEffects() loading effect aec
+03-05 09:36:16.491: V/LvOutput(6031): loadEffects() loading effect ns
+03-05 09:36:16.491: V/LvOutput(6031): loadEffects() loading effect lmfv
+03-05 09:36:16.491: V/LvOutput(6031): loadEffects() loading effect fens
+03-05 09:36:16.491: V/LvOutput(6031): loadProcStreams() loading output source voice_call
+03-05 09:36:16.491: V/LvOutput(6031): streamNameToEnum found stream voice_call 0
+03-05 09:36:16.491: V/LvOutput(6031): loadProcStream() found effect fens in list
+03-05 09:36:16.491: V/LvOutput(6031): loadProcStream() adding effect fens uuid cbcc5980
+03-05 09:36:16.491: V/LvOutput(6031): loadProcStream() found effect lmfv in list
+03-05 09:36:16.491: V/LvOutput(6031): loadProcStream() adding effect lmfv uuid 989d9460
+03-05 09:36:16.491: V/LvOutput(6031): loadProcStreams() loading output source sec_voice_communication
+03-05 09:36:16.491: V/LvOutput(6031): streamNameToEnum found stream sec_voice_communication 12
+03-05 09:36:16.491: V/LvOutput(6031): loadProcStream() found effect fens in list
+03-05 09:36:16.491: V/LvOutput(6031): loadProcStream() adding effect fens uuid cbcc5980
+03-05 09:36:16.491: V/LvOutput(6031): loadProcStream() found effect lmfv in list
+03-05 09:36:16.491: V/LvOutput(6031): loadProcStream() adding effect lmfv uuid 989d9460
+03-05 09:36:16.491: V/LvOutput(6031): Constructor: successfully constructed
+03-05 09:36:17.405: E/AudioService(327): Media server died.
+03-05 09:36:17.405: E/AudioService(327): Media server started.
+03-05 09:36:17.405: I/AudioHardwareTinyALSA(6031): setParameters(restarting=true)
+03-05 09:36:17.405: I/audio_wfd_hw(6031): adev_set_parameters() restarting=true
+03-05 09:36:17.412: V/LvOutput(6031): initCheck: 0
+03-05 09:36:17.412: V/LvOutput(6031): setMode: 0
+03-05 09:36:17.412: D/AudioHardwareInterface(6031): setMode(NORMAL)
+03-05 09:36:17.412: D/AudioHardwareTinyALSA(6031): setMode 0
+03-05 09:36:17.412: V/AudioPolicyManagerBase(6031): setPhoneState() state 0
+03-05 09:36:17.412: W/AudioPolicyManagerBase(6031): setPhoneState() setting same state 0
+03-05 09:36:17.412: V/AudioPolicyManagerBase(6031): setForceUse() usage 0, config 0, mPhoneState 0
+03-05 09:36:17.412: V/AudioPolicyManagerBase(6031): checkOutputForStrategy(0002,0002,5)
+03-05 09:36:17.412: V/AudioPolicyManagerBase(6031): getOutputsForDevice device 0002 -> 0002
+03-05 09:36:17.412: V/AudioPolicyManagerBase(6031): getOutputsForDevice device 0002 -> 0002
+03-05 09:36:17.412: V/AudioPolicyManagerBase(6031): checkOutputForStrategy(0002,0002,1)
+03-05 09:36:17.412: V/AudioPolicyManagerBase(6031): getOutputsForDevice device 0002 -> 0002
+03-05 09:36:17.412: V/AudioPolicyManagerBase(6031): getOutputsForDevice device 0002 -> 0002
+03-05 09:36:17.412: V/AudioPolicyManagerBase(6031): checkOutputForStrategy(0002,0002,2)
+03-05 09:36:17.412: V/AudioPolicyManagerBase(6031): getOutputsForDevice device 0002 -> 0002
+03-05 09:36:17.412: V/AudioPolicyManagerBase(6031): getOutputsForDevice device 0002 -> 0002
+03-05 09:36:17.412: V/AudioPolicyManagerBase(6031): checkOutputForStrategy(0002,0002,3)
+03-05 09:36:17.412: V/AudioPolicyManagerBase(6031): getOutputsForDevice device 0002 -> 0002
+03-05 09:36:17.412: V/AudioPolicyManagerBase(6031): getOutputsForDevice device 0002 -> 0002
+03-05 09:36:17.412: V/AudioPolicyManagerBase(6031): checkOutputForStrategy(0002,0002,0)
+03-05 09:36:17.412: V/AudioPolicyManagerBase(6031): getOutputsForDevice device 0002 -> 0002
+03-05 09:36:17.412: V/AudioPolicyManagerBase(6031): getOutputsForDevice device 0002 -> 0002
+03-05 09:36:17.412: V/AudioPolicyManagerBase(6031): checkOutputForStrategy(0002,0002,4)
+03-05 09:36:17.412: V/AudioPolicyManagerBase(6031): getOutputsForDevice device 0002 -> 0002
+03-05 09:36:17.412: V/AudioPolicyManagerBase(6031): getOutputsForDevice device 0002 -> 0002
+03-05 09:36:17.412: E/AudioPolicyManagerBase(6031): unknown stream type
+03-05 09:36:17.412: E/AudioPolicyManagerBase(6031): unknown stream type
+03-05 09:36:17.412: E/AudioPolicyManagerBase(6031): unknown stream type
+03-05 09:36:17.412: E/AudioPolicyManagerBase(6031): unknown stream type
+03-05 09:36:17.412: E/AudioPolicyManagerBase(6031): unknown stream type
+03-05 09:36:17.412: E/AudioPolicyManagerBase(6031): unknown stream type
+03-05 09:36:17.412: V/AudioPolicyManagerBase(6031): getNewDevice() selected device 0
+03-05 09:36:17.412: V/AudioPolicyManagerBase(6031): setOutputDevice() output 2 device 0000 force 0 delayMs 0 
+03-05 09:36:17.412: V/AudioPolicyManagerBase(6031): setOutputDevice() prevDevice 0002
+03-05 09:36:17.412: V/AudioPolicyManagerBase(6031): setOutputDevice() setting same device 0000 or null device for output 2
+03-05 09:36:17.412: V/AudioPolicyManagerBase(6031): setForceUse() usage 2, config 0, mPhoneState 0
+03-05 09:36:17.412: V/AudioPolicyManagerBase(6031): checkOutputForStrategy(0002,0002,5)
+03-05 09:36:17.412: V/AudioPolicyManagerBase(6031): getOutputsForDevice device 0002 -> 0002
+03-05 09:36:17.412: V/AudioPolicyManagerBase(6031): getOutputsForDevice device 0002 -> 0002
+03-05 09:36:17.420: V/AudioPolicyManagerBase(6031): checkOutputForStrategy(0002,0002,1)
+03-05 09:36:17.420: V/AudioPolicyManagerBase(6031): getOutputsForDevice device 0002 -> 0002
+03-05 09:36:17.420: V/AudioPolicyManagerBase(6031): getOutputsForDevice device 0002 -> 0002
+03-05 09:36:17.420: V/AudioPolicyManagerBase(6031): checkOutputForStrategy(0002,0002,2)
+03-05 09:36:17.420: V/AudioPolicyManagerBase(6031): getOutputsForDevice device 0002 -> 0002
+03-05 09:36:17.420: V/AudioPolicyManagerBase(6031): getOutputsForDevice device 0002 -> 0002
+03-05 09:36:17.420: V/AudioPolicyManagerBase(6031): checkOutputForStrategy(0002,0002,3)
+03-05 09:36:17.420: V/AudioPolicyManagerBase(6031): getOutputsForDevice device 0002 -> 0002
+03-05 09:36:17.420: V/AudioPolicyManagerBase(6031): getOutputsForDevice device 0002 -> 0002
+03-05 09:36:17.420: V/AudioPolicyManagerBase(6031): checkOutputForStrategy(0002,0002,0)
+03-05 09:36:17.420: V/AudioPolicyManagerBase(6031): getOutputsForDevice device 0002 -> 0002
+03-05 09:36:17.420: V/AudioPolicyManagerBase(6031): getOutputsForDevice device 0002 -> 0002
+03-05 09:36:17.420: V/AudioPolicyManagerBase(6031): checkOutputForStrategy(0002,0002,4)
+03-05 09:36:17.420: V/AudioPolicyManagerBase(6031): getOutputsForDevice device 0002 -> 0002
+03-05 09:36:17.420: V/AudioPolicyManagerBase(6031): getOutputsForDevice device 0002 -> 0002
+03-05 09:36:17.420: E/AudioPolicyManagerBase(6031): unknown stream type
+03-05 09:36:17.420: E/AudioPolicyManagerBase(6031): unknown stream type
+03-05 09:36:17.420: E/AudioPolicyManagerBase(6031): unknown stream type
+03-05 09:36:17.420: E/AudioPolicyManagerBase(6031): unknown stream type
+03-05 09:36:17.420: E/AudioPolicyManagerBase(6031): unknown stream type
+03-05 09:36:17.420: E/AudioPolicyManagerBase(6031): unknown stream type
+03-05 09:36:17.420: V/AudioPolicyManagerBase(6031): getNewDevice() selected device 0
+03-05 09:36:17.420: V/AudioPolicyManagerBase(6031): setOutputDevice() output 2 device 0000 force 0 delayMs 0 
+03-05 09:36:17.420: V/AudioPolicyManagerBase(6031): setOutputDevice() prevDevice 0002
+03-05 09:36:17.420: V/AudioPolicyManagerBase(6031): setOutputDevice() setting same device 0000 or null device for output 2
+03-05 09:36:17.420: V/AudioPolicyManagerBase(6031): initStreamVolume() stream 12, min 0, max 5
+03-05 09:36:17.428: V/AudioPolicyManagerBase(6031): initStreamVolume() stream 11, min 0, max 5
+03-05 09:36:17.428: V/AudioPolicyManagerBase(6031): initStreamVolume() stream 10, min 0, max 15
+03-05 09:36:17.428: V/AudioPolicyManagerBase(6031): initStreamVolume() stream 9, min 0, max 15
+03-05 09:36:17.436: V/AudioPolicyManagerBase(6031): initStreamVolume() stream 8, min 0, max 15
+03-05 09:36:17.436: V/AudioPolicyManagerBase(6031): initStreamVolume() stream 7, min 0, max 7
+03-05 09:36:17.444: V/AudioPolicyManagerBase(6031): initStreamVolume() stream 6, min 0, max 15
+03-05 09:36:17.444: V/AudioPolicyManagerBase(6031): initStreamVolume() stream 5, min 0, max 7
+03-05 09:36:17.444: V/AudioPolicyManagerBase(6031): initStreamVolume() stream 4, min 0, max 7
+03-05 09:36:17.451: V/AudioPolicyManagerBase(6031): initStreamVolume() stream 3, min 0, max 15
+03-05 09:36:17.451: E/AudioPolicyManagerBase(6031): unknown stream type
+03-05 09:36:17.451: E/AudioPolicyManagerBase(6031): unknown stream type
+03-05 09:36:17.451: E/AudioPolicyManagerBase(6031): unknown stream type
+03-05 09:36:17.451: E/AudioPolicyManagerBase(6031): unknown stream type
+03-05 09:36:17.451: E/AudioPolicyManagerBase(6031): unknown stream type
+03-05 09:36:17.451: E/AudioPolicyManagerBase(6031): unknown stream type
+03-05 09:36:17.451: V/AudioPolicyManagerBase(6031): getNewDevice() selected device 0
+03-05 09:36:17.451: V/AudioPolicyManagerBase(6031): initStreamVolume() stream 2, min 0, max 7
+03-05 09:36:17.459: V/AudioPolicyManagerBase(6031): initStreamVolume() stream 1, min 0, max 7
+03-05 09:36:17.459: V/AudioPolicyManagerBase(6031): initStreamVolume() stream 0, min 0, max 5
+03-05 09:36:17.459: V/AudioPolicyManagerBase(6031): setForceUse() usage 1, config 10, mPhoneState 0
+03-05 09:36:17.459: V/AudioPolicyManagerBase(6031): checkOutputForStrategy(0002,0002,5)
+03-05 09:36:17.459: V/AudioPolicyManagerBase(6031): getOutputsForDevice device 0002 -> 0002
+03-05 09:36:17.459: V/AudioPolicyManagerBase(6031): getOutputsForDevice device 0002 -> 0002
+03-05 09:36:17.459: V/AudioPolicyManagerBase(6031): checkOutputForStrategy(0002,0002,1)
+03-05 09:36:17.459: V/AudioPolicyManagerBase(6031): getOutputsForDevice device 0002 -> 0002
+03-05 09:36:17.459: V/AudioPolicyManagerBase(6031): getOutputsForDevice device 0002 -> 0002
+03-05 09:36:17.459: V/AudioPolicyManagerBase(6031): checkOutputForStrategy(0002,0002,2)
+03-05 09:36:17.459: V/AudioPolicyManagerBase(6031): getOutputsForDevice device 0002 -> 0002
+03-05 09:36:17.459: V/AudioPolicyManagerBase(6031): getOutputsForDevice device 0002 -> 0002
+03-05 09:36:17.459: V/AudioPolicyManagerBase(6031): checkOutputForStrategy(0002,0002,3)
+03-05 09:36:17.459: V/AudioPolicyManagerBase(6031): getOutputsForDevice device 0002 -> 0002
+03-05 09:36:17.459: V/AudioPolicyManagerBase(6031): getOutputsForDevice device 0002 -> 0002
+03-05 09:36:17.459: V/AudioPolicyManagerBase(6031): checkOutputForStrategy(0002,0002,0)
+03-05 09:36:17.459: V/AudioPolicyManagerBase(6031): getOutputsForDevice device 0002 -> 0002
+03-05 09:36:17.459: V/AudioPolicyManagerBase(6031): getOutputsForDevice device 0002 -> 0002
+03-05 09:36:17.459: V/AudioPolicyManagerBase(6031): checkOutputForStrategy(0002,0002,4)
+03-05 09:36:17.459: V/AudioPolicyManagerBase(6031): getOutputsForDevice device 0002 -> 0002
+03-05 09:36:17.459: V/AudioPolicyManagerBase(6031): getOutputsForDevice device 0002 -> 0002
+03-05 09:36:17.459: E/AudioPolicyManagerBase(6031): unknown stream type
+03-05 09:36:17.459: E/AudioPolicyManagerBase(6031): unknown stream type
+03-05 09:36:17.459: E/AudioPolicyManagerBase(6031): unknown stream type
+03-05 09:36:17.459: E/AudioPolicyManagerBase(6031): unknown stream type
+03-05 09:36:17.459: E/AudioPolicyManagerBase(6031): unknown stream type
+03-05 09:36:17.459: E/AudioPolicyManagerBase(6031): unknown stream type
+03-05 09:36:17.459: V/AudioPolicyManagerBase(6031): getNewDevice() selected device 0
+03-05 09:36:17.459: V/AudioPolicyManagerBase(6031): setOutputDevice() output 2 device 0000 force 0 delayMs 0 
+03-05 09:36:17.459: V/AudioPolicyManagerBase(6031): setOutputDevice() prevDevice 0002
+03-05 09:36:17.459: V/AudioPolicyManagerBase(6031): setOutputDevice() setting same device 0000 or null device for output 2
+03-05 09:36:17.459: I/AudioHardwareTinyALSA(6031): setParameters(toMono=0)
+03-05 09:36:17.459: I/audio_wfd_hw(6031): adev_set_parameters() toMono=0
+03-05 09:36:17.459: I/AudioHardwareTinyALSA(6031): setParameters(all_sound_mute=0)
+03-05 09:36:17.459: I/audio_wfd_hw(6031): adev_set_parameters() all_sound_mute=0
+03-05 09:36:17.459: I/AudioHardwareTinyALSA(6031): ### setVoiceVolume (0.800000)
+03-05 09:36:17.459: E/AudioPolicyManagerBase(6031): unknown stream type
+03-05 09:36:17.459: E/AudioPolicyManagerBase(6031): unknown stream type
+03-05 09:36:17.459: E/AudioPolicyManagerBase(6031): unknown stream type
+03-05 09:36:17.459: E/AudioPolicyManagerBase(6031): unknown stream type
+03-05 09:36:17.459: E/AudioPolicyManagerBase(6031): unknown stream type
+03-05 09:36:17.459: E/AudioPolicyManagerBase(6031): unknown stream type
+03-05 09:36:17.459: V/AudioPolicyManagerBase(6031): getNewDevice() selected device 0
+03-05 09:36:17.459: V/AudioPolicyManagerBase(6031): checkAndSetVolume() cannot set stream 6 volume with force use = 0 for comm
+03-05 09:36:17.467: I/AudioHardwareTinyALSA(6031): setParameters(restarting=false)
+03-05 09:36:17.467: I/audio_wfd_hw(6031): adev_set_parameters() restarting=false
