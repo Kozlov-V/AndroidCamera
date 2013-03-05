@@ -155,9 +155,13 @@ public class MainActivity extends Activity {
 				
 				myMediaRecorder.stop();												// Stop current recording in progress
 
+<<<<<<< HEAD
 				releaseMediaRecorder();												// Reset and release video recorder object
 				
 				
+=======
+				releaseMediaRecorder();
+>>>>>>> 3bc3820c2bc4fb874c418663745e56a764aa3545
 
 				try { myCamera.reconnect(); } catch (Exception e) {					// Reconnect and re-lock access to the Camera
 					
