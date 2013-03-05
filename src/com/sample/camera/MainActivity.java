@@ -97,7 +97,11 @@ public class MainActivity extends Activity {
 			
             public void onError (int error, Camera camera) {
             	
+				Toast.makeText (MainActivity.this, "Failed to take photo! Error Code: " + error, Toast.LENGTH_LONG).show();
+
             	Log.e (TAG, "->myCameraErrorCallback Error " + error + " on camera object: " + camera);
+            	
+            	camera.startPreview();
             }
         };
         
@@ -132,15 +136,11 @@ public class MainActivity extends Activity {
 		@Override
 		public void onClick (View v) {
 
-			Log.i (TAG, "Entering takePhotoButtonOnClickListener");
+			myCamera.takePicture (null, null, myPictureCallback);					// Take photo and callback
 
-			try { myCamera.takePicture (null, null, myPictureCallback); }
+			myCamera.startPreview();												// Restart preview updates
 
-			catch (Exception e) { Log.e (TAG, "Exception during .takePicture call: " + e.getMessage()); }
-
-			myCamera.startPreview();											// Restart preview updates
-
-			Log.i (TAG, "Leaving  takePhotoButtonOnClickListener");
+			Log.i (TAG, "Leaving takePhotoButtonOnClickListener");
 		}
 	};
 
@@ -155,11 +155,22 @@ public class MainActivity extends Activity {
 				
 				myMediaRecorder.stop();												// Stop current recording in progress
 
+				releaseMediaRecorder();												// Reset and release video recorder object
+				
+				
+
 				try { myCamera.reconnect(); } catch (Exception e) {					// Reconnect and re-lock access to the Camera
 					
 					Toast.makeText (MainActivity.this, "Failed to reconnect Camera!", Toast.LENGTH_LONG).show();
 					
-					Log.e (TAG, "->myMediaRecorderOnInfoListener failed to reconnect Camera: " + e.getMessage());
+					Log.e (TAG, "->recordVideoButtonOnClickListener failed to reconnect Camera: " + e.getMessage());
+				}
+				
+				try { myCamera.startPreview(); } catch (Exception e) {				// Restart preview updates
+					
+					Toast.makeText (MainActivity.this, "Failed to restart Camera preview!", Toast.LENGTH_LONG).show();
+					
+					Log.e (TAG, "->recordVideoButtonOnClickListener restart Camera preview: " + e.getMessage());
 				}
 
 				btnRecordVideo.setText ("RECORD VIDEO");
