@@ -125,6 +125,9 @@ public class MainActivity extends Activity {
 						Log.e (TAG, "->myMediaRecorderOnInfoListener failed to reconnect Camera: " + e.getMessage());
 					}
 					
+					myCamera.stopPreview();												// This magic line fixes the 'freeze after video recording stop' bug
+																						// (See: https://code.google.com/p/android/issues/detail?id=52734)
+					
 					try { myCamera.startPreview(); } catch (Exception e) {				// Restart preview updates
 						
 						Toast.makeText (MainActivity.this, "Failed to restart Camera preview!", Toast.LENGTH_LONG).show();
@@ -170,6 +173,9 @@ public class MainActivity extends Activity {
 					
 					Log.e (TAG, "->recordVideoButtonOnClickListener failed to reconnect Camera: " + e.getMessage());
 				}
+				
+				myCamera.stopPreview();												// This magic line fixes the 'freeze after video recording stop' bug
+																					// (See: https://code.google.com/p/android/issues/detail?id=52734)
 				
 				try { myCamera.startPreview(); } catch (Exception e) {				// Restart preview updates
 					
