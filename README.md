@@ -1,6 +1,9 @@
 AndroidCamera
 =============
 
+UPDATE: Fixed by adding an extra .stopPreview after camera .reconnect and before .startPreview. Taking a photo
+after stopping a recording now works as expected; I'll keep this github project around in case it saves anyone time.
+
 This is a minimum Eclipse project demonstrating a weird problem I'm having on a Samsung Galaxy Tab 10.1 and 4.1.1
 
 What's tested and working:
