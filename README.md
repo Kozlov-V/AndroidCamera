@@ -25,6 +25,3 @@ what I'm doing wrong or how to diagnose this further?
 
 Massive positive Karma to anyone helping me fix this :)
 
-With many thanks,
-
-Pete
