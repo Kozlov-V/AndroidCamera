@@ -46,22 +46,24 @@ public class MainActivity extends Activity {
 	private MediaRecorder		myMediaRecorder;
 	private OnInfoListener		myMediaRecorderOnInfoListener;
 
-	private Button				btnTakePhoto, btnRecordVideo;
+	private Button				btnRecordVideo, btnGoRec;
 	
 	@Override
 	public void onCreate (Bundle savedInstanceState) {
 		
 		super.onCreate (savedInstanceState);
 
-		setContentView (R.layout.activity_main);
+		setContentView (R.layout.activity_pre);
 
 		setRequestedOrientation (ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
 
-		btnTakePhoto	= (Button) findViewById (R.id.btnTakePhoto);
+		//btnTakePhoto	= (Button) findViewById (R.id.btnTakePhoto);
 		btnRecordVideo	= (Button) findViewById (R.id.btnRecordVideo);
-		
-		btnTakePhoto.setOnClickListener		(takePhotoButtonOnClickListener);
+        btnGoRec	    = (Button) findViewById (R.id.btnGoRec);
+
+		//btnTakePhoto.setOnClickListener		(takePhotoButtonOnClickListener);
 		btnRecordVideo.setOnClickListener	(recordVideoButtonOnClickListener);
+        btnGoRec.setOnClickListener	        (goRecButtonOnClickListener);
 		
 		myPictureCallback = new PictureCallback() {
 
@@ -143,16 +145,18 @@ public class MainActivity extends Activity {
 	    };
  	}
 	
-	Button.OnClickListener takePhotoButtonOnClickListener = new Button.OnClickListener() {
+	Button.OnClickListener goRecButtonOnClickListener = new Button.OnClickListener() {
 		
 		@Override
 		public void onClick (View v) {
 
 			Log.i (TAG, "Entering takePhotoButtonOnClickListener");
 
-			myCamera.takePicture (null, null, myPictureCallback);					// Take photo and callback
+            setContentView (R.layout.activity_main);
 
-			myCamera.startPreview();												// Restart preview updates
+			//myCamera.takePicture (null, null, myPictureCallback);					// Take photo and callback
+
+			//myCamera.startPreview();												// Restart preview updates
 		}
 	};
 
