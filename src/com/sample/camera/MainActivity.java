@@ -53,7 +53,7 @@ public class MainActivity extends Activity {
 		
 		super.onCreate (savedInstanceState);
 
-		setContentView (R.layout.activity_main);
+		setContentView (R.layout.activity_pre);
 
 		setRequestedOrientation (ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
 
