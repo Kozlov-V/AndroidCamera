@@ -11,6 +11,7 @@ import com.example.camera.R;
 
 
 
+
 public class MainActivity extends Activity {
     Button btnGoRec;
 
