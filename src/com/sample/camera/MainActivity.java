@@ -1,5 +1,6 @@
 package com.sample.camera;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
@@ -7,6 +8,7 @@ import android.view.MenuItem;
 import android.support.v4.app.NavUtils;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 import com.example.camera.R;
 
 
@@ -25,7 +27,8 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View v) {
                 // TODO Auto-generated method stub
-
+                Intent intent = new Intent(MainActivity.this, CameraActivity.class);
+                startActivity(intent);
             }
         };
         btnGoRec.setOnClickListener(oclGoRec);

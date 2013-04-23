@@ -18,12 +18,7 @@
             android:layout_gravity="bottom"
             android:orientation="vertical" >
 
-            <Button
-                android:id="@+id/btnTakePhoto"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:text="TAKE PHOTO"
-                android:textSize="12sp" />
+
 
             <Button
                 android:id="@+id/btnRecordVideo"

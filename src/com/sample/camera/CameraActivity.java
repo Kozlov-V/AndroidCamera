@@ -45,7 +45,7 @@ public class CameraActivity extends Activity {
     private MediaRecorder myMediaRecorder;
     private MediaRecorder.OnInfoListener myMediaRecorderOnInfoListener;
 
-    private Button btnRecordVideo, btnGoRec;
+    private Button btnRecordVideo;
 
     @Override
     public void onCreate (Bundle savedInstanceState) {
@@ -62,7 +62,7 @@ public class CameraActivity extends Activity {
 
         //btnTakePhoto.setOnClickListener		(takePhotoButtonOnClickListener);
         btnRecordVideo.setOnClickListener	(recordVideoButtonOnClickListener);
-        btnGoRec.setOnClickListener	        (goRecButtonOnClickListener);
+        //btnGoRec.setOnClickListener	        (goRecButtonOnClickListener);
 
         myPictureCallback = new Camera.PictureCallback() {
 
