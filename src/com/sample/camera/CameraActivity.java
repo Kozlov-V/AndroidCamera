@@ -58,7 +58,7 @@ public class CameraActivity extends Activity {
 
         //btnTakePhoto	= (Button) findViewById (R.id.btnTakePhoto);
         btnRecordVideo	= (Button) findViewById (R.id.btnRecordVideo);
-        btnGoRec	    = (Button) findViewById (R.id.btnGoRec);
+        //btnGoRec	    = (Button) findViewById (R.id.btnGoRec);
 
         //btnTakePhoto.setOnClickListener		(takePhotoButtonOnClickListener);
         btnRecordVideo.setOnClickListener	(recordVideoButtonOnClickListener);
